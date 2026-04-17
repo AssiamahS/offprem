@@ -1,5 +1,14 @@
 [
   {
+    "slug": "evolve-008-short-overbought-180d-train",
+    "label": "evolve-008-short-overbought-180d-train",
+    "source": "local:/Users/djsly/hyperliquid-sol/autoresearch",
+    "dataset": "train",
+    "avg_return_pct": 0.0,
+    "avg_sharpe": -0.058,
+    "ts": "2026-04-17T08:11:28+00:00"
+  },
+  {
     "slug": "evolve-008-short-overbought-180d",
     "label": "evolve-008-short-overbought-180d",
     "source": "local:/Users/djsly/hyperliquid-sol/autoresearch",
