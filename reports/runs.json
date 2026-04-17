@@ -1,5 +1,14 @@
 [
   {
+    "slug": "evolve-008-short-overbought",
+    "label": "evolve-008-short-overbought",
+    "source": "local:/Users/djsly/hyperliquid-sol/autoresearch",
+    "dataset": "test",
+    "avg_return_pct": 0.27,
+    "avg_sharpe": 3.193,
+    "ts": "2026-04-17T08:05:11+00:00"
+  },
+  {
     "slug": "evolve-007-short-trend",
     "label": "evolve-007-short-trend",
     "source": "local:/Users/djsly/hyperliquid-sol/autoresearch",
