@@ -1,0 +1,91 @@
+name: sim-on-issue
+
+on:
+  issues:
+    types: [opened]
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  run:
+    if: startsWith(github.event.issue.title, '[run]')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: install deps
+        run: pip install pandas numpy
+
+      - name: parse issue
+        id: parse
+        env:
+          TITLE: ${{ github.event.issue.title }}
+          BODY: ${{ github.event.issue.body }}
+        run: |
+          # title format: [run] <repo url>  [optional --strategy-path subpath] [optional --label name]
+          input="${TITLE#'[run] '}"
+          repo=$(echo "$input" | awk '{print $1}')
+          subpath=$(echo "$input" | grep -oE -- '--strategy-path [^ ]+' | awk '{print $2}' || echo ".")
+          label=$(echo "$input" | grep -oE -- '--label [^ ]+' | awk '{print $2}' || basename "$repo" .git)
+          echo "repo=$repo" >> $GITHUB_OUTPUT
+          echo "subpath=$subpath" >> $GITHUB_OUTPUT
+          echo "label=$label" >> $GITHUB_OUTPUT
+
+      - name: run simrun
+        id: sim
+        run: |
+          set -e
+          cd engine
+          python3 simrun.py \
+            --repo "${{ steps.parse.outputs.repo }}" \
+            --strategy-path "${{ steps.parse.outputs.subpath }}" \
+            --label "${{ steps.parse.outputs.label }}" \
+            --dataset test \
+            --no-open 2>&1 | tee /tmp/simrun.log
+          tail -20 /tmp/simrun.log > /tmp/summary.txt
+          slug=$(echo "${{ steps.parse.outputs.label }}" | tr '[:upper:]' '[:lower:]' | sed 's/[^a-z0-9_-]/-/g; s/^-*//; s/-*$//')
+          mkdir -p ../reports/$slug
+          report=$(grep -oE '/[^ ]+sim_report\.html' /tmp/simrun.log | head -1 || true)
+          if [ -n "$report" ] && [ -f "$report" ]; then
+            cp "$report" ../reports/$slug/index.html
+          fi
+          echo "slug=$slug" >> $GITHUB_OUTPUT
+
+      - name: commit and push
+        run: |
+          git config user.name "offprem-bot"
+          git config user.email "offprem-bot@users.noreply.github.com"
+          git add reports/
+          if ! git diff --cached --quiet; then
+            git commit -m "add ${{ steps.parse.outputs.label }} from issue #${{ github.event.issue.number }}"
+            git push
+          fi
+
+      - name: comment on issue
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const summary = fs.existsSync('/tmp/summary.txt') ? fs.readFileSync('/tmp/summary.txt', 'utf8') : 'no output';
+            const slug = '${{ steps.sim.outputs.slug }}';
+            const url = `https://assiamahs.github.io/offprem/reports/${slug}/`;
+            github.rest.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: `report: ${url}\n\n\`\`\`\n${summary}\n\`\`\``
+            });
+            github.rest.issues.update({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              state: 'closed'
+            });
