@@ -1,0 +1,106 @@
+<!doctype html>
+<html><head>
+<meta charset="utf-8">
+<title>simrun — evolve-012-funding-harvest-train (train)</title>
+<script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>
+<style>
+  :root { color-scheme: dark; }
+  body { background:#0e1117; color:#e6e6e6; font: 14px/1.4 -apple-system,system-ui,sans-serif; margin:0; padding:24px; max-width:1400px; }
+  h1 { font-weight:600; margin:0 0 6px; font-size:20px; }
+  h2 { font-weight:600; margin:24px 0 8px; font-size:15px; color:#9fb0c0; }
+  .sub { color:#7d8a96; font-size:12px; margin-bottom:18px; }
+  table { border-collapse:collapse; width:100%; margin-bottom:20px; font-size:13px; }
+  th, td { padding:6px 10px; border-bottom:1px solid #222; text-align:right; font-variant-numeric:tabular-nums; }
+  th:first-child, td:first-child { text-align:left; }
+  th { background:#161b22; color:#9fb0c0; font-weight:500; }
+  tr:hover { background:#1a2029; }
+  .pos { color:#16c784; }
+  .neg { color:#ea3943; }
+  .panel { background:#161b22; border-radius:8px; padding:12px; margin-bottom:18px; }
+  .panel-head { display:flex; justify-content:space-between; align-items:center; padding:0 6px 8px; }
+  .panel-head strong { font-size:16px; }
+  .badge { background:#21262d; padding:2px 8px; border-radius:4px; font-size:12px; color:#9fb0c0; }
+  .err { color:#ea3943; padding:12px; }
+</style>
+</head>
+<body>
+<h1>simrun · evolve-012-funding-harvest-train · <span class="badge">train</span></h1>
+<div class="sub">Initial capital $100 · Position size 20% · Taker 3bps + slippage 1bps</div>
+<div id="aggregate"></div>
+<h2>Per-coin breakdown</h2>
+<div id="panels"></div>
+<script>
+const DATA = {"panels": [{"coin": "BTC", "error": "'Index' object has no attribute 'tz'"}, {"coin": "ETH", "error": "'Index' object has no attribute 'tz'"}, {"coin": "SOL", "error": "'Index' object has no attribute 'tz'"}, {"coin": "HYPE", "error": "'Index' object has no attribute 'tz'"}, {"coin": "XRP", "error": "'Index' object has no attribute 'tz'"}, {"coin": "SUI", "error": "'Index' object has no attribute 'tz'"}, {"coin": "DOGE", "error": "'Index' object has no attribute 'tz'"}, {"coin": "AVAX", "error": "'Index' object has no attribute 'tz'"}], "aggregate": [{"coin": "BTC", "error": "'Index' object has no attribute 'tz'"}, {"coin": "ETH", "error": "'Index' object has no attribute 'tz'"}, {"coin": "SOL", "error": "'Index' object has no attribute 'tz'"}, {"coin": "HYPE", "error": "'Index' object has no attribute 'tz'"}, {"coin": "XRP", "error": "'Index' object has no attribute 'tz'"}, {"coin": "SUI", "error": "'Index' object has no attribute 'tz'"}, {"coin": "DOGE", "error": "'Index' object has no attribute 'tz'"}, {"coin": "AVAX", "error": "'Index' object has no attribute 'tz'"}], "dataset": "train"};
+
+function fmtPct(x) {
+  if (x === undefined || x === null) return '-';
+  const cls = x >= 0 ? 'pos' : 'neg';
+  return `<span class="${cls}">${x.toFixed(2)}%</span>`;
+}
+
+let agg = '<table><thead><tr><th>Coin</th><th>Return</th><th>Sharpe</th><th>Sortino</th><th>Max DD</th><th>Trades</th><th>Win Rate</th></tr></thead><tbody>';
+for (const r of DATA.aggregate) {
+  if (r.error) {
+    agg += `<tr><td><strong>${r.coin}</strong></td><td colspan="6" class="neg">${r.error}</td></tr>`;
+    continue;
+  }
+  agg += `<tr><td><strong>${r.coin}</strong></td><td>${fmtPct(r.pnl_pct)}</td><td>${r.sharpe}</td><td>${r.sortino}</td><td>${fmtPct(-r.max_dd_pct)}</td><td>${r.trades}</td><td>${r.win_rate.toFixed(1)}%</td></tr>`;
+}
+agg += '</tbody></table>';
+document.getElementById('aggregate').innerHTML = agg;
+
+const panelsEl = document.getElementById('panels');
+for (const p of DATA.panels) {
+  const div = document.createElement('div');
+  div.className = 'panel';
+  if (p.error) {
+    div.innerHTML = `<div class="panel-head"><strong>${p.coin}</strong></div><div class="err">${p.error}</div>`;
+    panelsEl.appendChild(div);
+    continue;
+  }
+  div.innerHTML = `<div class="panel-head"><strong>${p.coin}</strong><span class="badge">Return ${fmtPct(p.stats.pnl_pct)} · Sharpe ${p.stats.sharpe} · ${p.stats.trades} trades</span></div><div id="chart-${p.coin}" style="height:520px;"></div>`;
+  panelsEl.appendChild(div);
+
+  const candles = {
+    x: p.timestamps, open: p.open, high: p.high, low: p.low, close: p.close,
+    type: 'candlestick', name: p.coin,
+    increasing: { line: { color:'#16c784' } },
+    decreasing: { line: { color:'#ea3943' } },
+    yaxis: 'y'
+  };
+  const equity = {
+    x: p.timestamps, y: p.equity, type:'scatter', mode:'lines',
+    name:'Equity', line: { color:'#5a9fd4', width:2 }, yaxis:'y2'
+  };
+  const longs = p.entries.filter(e => e.side === 'long');
+  const shorts = p.entries.filter(e => e.side === 'short');
+  const buyMarkers = {
+    x: longs.map(e => e.ts), y: longs.map(e => e.price), mode:'markers',
+    type:'scatter', name:'Long entry',
+    marker: { symbol:'triangle-up', size:12, color:'#16c784', line: { color:'#fff', width:1 } }
+  };
+  const sellMarkers = {
+    x: shorts.map(e => e.ts), y: shorts.map(e => e.price), mode:'markers',
+    type:'scatter', name:'Short entry',
+    marker: { symbol:'triangle-down', size:12, color:'#ea3943', line: { color:'#fff', width:1 } }
+  };
+  const exitMarkers = {
+    x: p.exits.map(e => e.ts), y: p.exits.map(e => e.price), mode:'markers',
+    type:'scatter', name:'Exit',
+    marker: { symbol:'x', size:9, color:'#e6e6e6' },
+    text: p.exits.map(e => `PnL: ${(e.pnl*100).toFixed(2)}%`),
+    hovertemplate: '%{x}<br>$%{y}<br>%{text}<extra></extra>'
+  };
+  const layout = {
+    paper_bgcolor:'#161b22', plot_bgcolor:'#0e1117',
+    font: { color:'#e6e6e6' },
+    xaxis: { rangeslider: { visible:false }, gridcolor:'#1f2630' },
+    yaxis: { title:'Price (USD)', gridcolor:'#1f2630', side:'left' },
+    yaxis2: { title:'Equity (USD)', overlaying:'y', side:'right', gridcolor:'transparent' },
+    legend: { orientation:'h', y:1.08 },
+    margin: { l:60, r:60, t:30, b:40 }
+  };
+  Plotly.newPlot(`chart-${p.coin}`, [candles, buyMarkers, sellMarkers, exitMarkers, equity], layout, { responsive:true });
+}
+</script>
+</body></html>
