@@ -1,5 +1,14 @@
 [
   {
+    "slug": "evolve-010-donchian-train",
+    "label": "evolve-010-donchian-train",
+    "source": "local:/Users/djsly/hyperliquid-sol/autoresearch",
+    "dataset": "train",
+    "avg_return_pct": -6.02,
+    "avg_sharpe": -1.629,
+    "ts": "2026-04-17T08:12:23+00:00"
+  },
+  {
     "slug": "evolve-010-donchian-test",
     "label": "evolve-010-donchian-test",
     "source": "local:/Users/djsly/hyperliquid-sol/autoresearch",
