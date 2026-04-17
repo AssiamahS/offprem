@@ -1,5 +1,14 @@
 [
   {
+    "slug": "evolve-009-pro-trend-meanrev-test",
+    "label": "evolve-009-pro-trend-meanrev-test",
+    "source": "local:/Users/djsly/hyperliquid-sol/autoresearch",
+    "dataset": "test",
+    "avg_return_pct": 0.15,
+    "avg_sharpe": 0.362,
+    "ts": "2026-04-17T08:05:57+00:00"
+  },
+  {
     "slug": "evolve-008-short-overbought-train",
     "label": "evolve-008-short-overbought-train",
     "source": "local:/Users/djsly/hyperliquid-sol/autoresearch",
