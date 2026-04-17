@@ -1,5 +1,14 @@
 [
   {
+    "slug": "evolve-005-bb-volspike",
+    "label": "evolve-005-bb-volspike",
+    "source": "local:/Users/djsly/hyperliquid-sol/autoresearch",
+    "dataset": "test",
+    "avg_return_pct": -0.44,
+    "avg_sharpe": -1.735,
+    "ts": "2026-04-17T07:40:21+00:00"
+  },
+  {
     "slug": "evolve-004-bb-atr-stop",
     "label": "evolve-004-bb-atr-stop",
     "source": "local:/Users/djsly/hyperliquid-sol/autoresearch",
