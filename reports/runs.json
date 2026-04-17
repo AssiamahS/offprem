@@ -1,5 +1,14 @@
 [
   {
+    "slug": "hip3-funding-harvest-test",
+    "label": "hip3-funding-harvest-test",
+    "source": "hip3:/Users/djsly/hyperliquid-sol/autoresearch",
+    "dataset": "test",
+    "avg_return_pct": -1.08,
+    "avg_sharpe": 21.025,
+    "ts": "2026-04-17T09:45:22+00:00"
+  },
+  {
     "slug": "evolve-012-funding-harvest-train",
     "label": "evolve-012-funding-harvest-train",
     "source": "local:/Users/djsly/hyperliquid-sol/autoresearch",
