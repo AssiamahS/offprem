@@ -1,0 +1,11 @@
+[
+  {
+    "slug": "autoresearch-baseline",
+    "label": "autoresearch-baseline",
+    "source": "local:/Users/djsly/hyperliquid-sol/autoresearch",
+    "dataset": "test",
+    "avg_return_pct": -1.49,
+    "avg_sharpe": -3.686,
+    "ts": "2026-04-17T07:33:45+00:00"
+  }
+]
