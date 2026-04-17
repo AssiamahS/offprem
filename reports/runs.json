@@ -1,5 +1,14 @@
 [
   {
+    "slug": "evolve-011-regime-switch-test",
+    "label": "evolve-011-regime-switch-test",
+    "source": "local:/Users/djsly/hyperliquid-sol/autoresearch",
+    "dataset": "test",
+    "avg_return_pct": -3.07,
+    "avg_sharpe": -4.096,
+    "ts": "2026-04-17T08:13:03+00:00"
+  },
+  {
     "slug": "evolve-010-donchian-train",
     "label": "evolve-010-donchian-train",
     "source": "local:/Users/djsly/hyperliquid-sol/autoresearch",
