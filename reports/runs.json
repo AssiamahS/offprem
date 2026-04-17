@@ -1,5 +1,14 @@
 [
   {
+    "slug": "evolve-007-short-trend",
+    "label": "evolve-007-short-trend",
+    "source": "local:/Users/djsly/hyperliquid-sol/autoresearch",
+    "dataset": "test",
+    "avg_return_pct": -2.7,
+    "avg_sharpe": -8.191,
+    "ts": "2026-04-17T08:04:51+00:00"
+  },
+  {
     "slug": "evolve-006-buyhold",
     "label": "evolve-006-buyhold",
     "source": "local:/Users/djsly/hyperliquid-sol/autoresearch",
