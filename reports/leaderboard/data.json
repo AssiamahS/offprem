@@ -1,0 +1,3359 @@
+{
+  "generated": "2026-04-17T08:08:12+00:00",
+  "rank_by": "month",
+  "all": [
+    {
+      "addr": "0xcf67e4da9e9cd38c0afd26338d0fbddb3036eb24",
+      "account_value": 522476.786137,
+      "pnl": 472442.53241,
+      "roi_pct": 946.66308743,
+      "vol_usd": 6563180.24,
+      "quality": {
+        "day": {
+          "net_pct": 10.39,
+          "sharpe": 20.0,
+          "max_dd_pct": 8.18,
+          "samples": 13
+        },
+        "week": {
+          "net_pct": 102.77,
+          "sharpe": 11.14,
+          "max_dd_pct": 18.02,
+          "samples": 62
+        },
+        "month": {
+          "net_pct": 0,
+          "sharpe": 6.81,
+          "max_dd_pct": 16.22,
+          "samples": 31
+        },
+        "allTime": {
+          "net_pct": 0,
+          "sharpe": 2.03,
+          "max_dd_pct": 17.93,
+          "samples": 47
+        },
+        "perpDay": {
+          "net_pct": 8.03,
+          "sharpe": 3.16,
+          "max_dd_pct": 9.31,
+          "samples": 13
+        },
+        "perpWeek": {
+          "net_pct": 98.65,
+          "sharpe": 4.31,
+          "max_dd_pct": 19.02,
+          "samples": 62
+        },
+        "perpMonth": {
+          "net_pct": 0,
+          "sharpe": 6.92,
+          "max_dd_pct": 17.22,
+          "samples": 31
+        },
+        "perpAllTime": {
+          "net_pct": 0,
+          "sharpe": 5.47,
+          "max_dd_pct": 18.93,
+          "samples": 47
+        }
+      }
+    },
+    {
+      "addr": "0x096eceb86a9d9a2baa07315464daaa84d0cc07d1",
+      "account_value": 104091.774221,
+      "pnl": 88720.380249,
+      "roi_pct": 577.1784941,
+      "vol_usd": 10944253.45,
+      "quality": {
+        "day": {
+          "net_pct": 0.28,
+          "sharpe": 3.12,
+          "max_dd_pct": 1.58,
+          "samples": 13
+        },
+        "week": {
+          "net_pct": 10.67,
+          "sharpe": 7.55,
+          "max_dd_pct": 3.25,
+          "samples": 64
+        },
+        "month": {
+          "net_pct": 577.18,
+          "sharpe": 6.69,
+          "max_dd_pct": 10.81,
+          "samples": 45
+        },
+        "allTime": {
+          "net_pct": 0,
+          "sharpe": 1.25,
+          "max_dd_pct": 90.27,
+          "samples": 37
+        },
+        "perpDay": {
+          "net_pct": 0,
+          "sharpe": -9.14,
+          "max_dd_pct": 64.8,
+          "samples": 13
+        },
+        "perpWeek": {
+          "net_pct": 50.0,
+          "sharpe": 1.47,
+          "max_dd_pct": 100.0,
+          "samples": 64
+        },
+        "perpMonth": {
+          "net_pct": -50.72,
+          "sharpe": 3.55,
+          "max_dd_pct": 100.0,
+          "samples": 51
+        },
+        "perpAllTime": {
+          "net_pct": 0,
+          "sharpe": 2.94,
+          "max_dd_pct": 100.0,
+          "samples": 54
+        }
+      }
+    },
+    {
+      "addr": "0xedc3bcac96833616b45be1c5e7bbc3ca8b2fe60c",
+      "account_value": 69869.422302,
+      "pnl": 84079.956039,
+      "roi_pct": 576.3627959199999,
+      "vol_usd": 21879630.66,
+      "quality": {
+        "day": {
+          "net_pct": 0.0,
+          "sharpe": 0,
+          "max_dd_pct": 0.0,
+          "samples": 13
+        },
+        "week": {
+          "net_pct": 43.19,
+          "sharpe": 7.12,
+          "max_dd_pct": 15.44,
+          "samples": 63
+        },
+        "month": {
+          "net_pct": 464.82,
+          "sharpe": 2.44,
+          "max_dd_pct": 100.0,
+          "samples": 45
+        },
+        "allTime": {
+          "net_pct": 0,
+          "sharpe": 0.98,
+          "max_dd_pct": 100.0,
+          "samples": 46
+        },
+        "perpWeek": {
+          "net_pct": -100.0,
+          "sharpe": 4.08,
+          "max_dd_pct": 100.0,
+          "samples": 63
+        },
+        "perpMonth": {
+          "net_pct": 0,
+          "sharpe": 5.5,
+          "max_dd_pct": 100.0,
+          "samples": 49
+        },
+        "perpAllTime": {
+          "net_pct": 0,
+          "sharpe": 5.81,
+          "max_dd_pct": 100.0,
+          "samples": 48
+        }
+      }
+    },
+    {
+      "addr": "0xc387339879190ec6bb5dd0ceae32f9e1d2ed386d",
+      "account_value": 225737.364248,
+      "pnl": 203395.27032,
+      "roi_pct": 473.65009881000003,
+      "vol_usd": 27138377.21,
+      "quality": {
+        "day": {
+          "net_pct": -10.21,
+          "sharpe": -14.97,
+          "max_dd_pct": 20.94,
+          "samples": 14
+        },
+        "week": {
+          "net_pct": 95.37,
+          "sharpe": 9.22,
+          "max_dd_pct": 20.94,
+          "samples": 61
+        },
+        "month": {
+          "net_pct": 433.26,
+          "sharpe": 5.83,
+          "max_dd_pct": 29.44,
+          "samples": 46
+        },
+        "allTime": {
+          "net_pct": 0,
+          "sharpe": 1.24,
+          "max_dd_pct": 100.0,
+          "samples": 46
+        },
+        "perpDay": {
+          "net_pct": -10.21,
+          "sharpe": -3.06,
+          "max_dd_pct": 20.94,
+          "samples": 14
+        },
+        "perpWeek": {
+          "net_pct": 95.37,
+          "sharpe": 3.77,
+          "max_dd_pct": 20.94,
+          "samples": 61
+        },
+        "perpMonth": {
+          "net_pct": 433.26,
+          "sharpe": 5.83,
+          "max_dd_pct": 29.44,
+          "samples": 46
+        },
+        "perpAllTime": {
+          "net_pct": 0,
+          "sharpe": 3.27,
+          "max_dd_pct": 100.0,
+          "samples": 46
+        }
+      }
+    },
+    {
+      "addr": "0x07642cbbd81e075d3bf14e0f6c1017f20c525572",
+      "account_value": 517696.671862,
+      "pnl": 530170.241862,
+      "roi_pct": 426.99084935,
+      "vol_usd": 77750666.02,
+      "quality": {
+        "day": {
+          "net_pct": 15.87,
+          "sharpe": 14.06,
+          "max_dd_pct": 13.87,
+          "samples": 17
+        },
+        "week": {
+          "net_pct": 93.58,
+          "sharpe": 7.09,
+          "max_dd_pct": 28.95,
+          "samples": 61
+        },
+        "month": {
+          "net_pct": 0,
+          "sharpe": 4.93,
+          "max_dd_pct": 41.85,
+          "samples": 28
+        },
+        "allTime": {
+          "net_pct": 0,
+          "sharpe": 1.43,
+          "max_dd_pct": 41.85,
+          "samples": 46
+        },
+        "perpDay": {
+          "net_pct": 15.87,
+          "sharpe": 2.86,
+          "max_dd_pct": 14.04,
+          "samples": 17
+        },
+        "perpWeek": {
+          "net_pct": 93.58,
+          "sharpe": 2.84,
+          "max_dd_pct": 65.61,
+          "samples": 61
+        },
+        "perpMonth": {
+          "net_pct": 0,
+          "sharpe": 4.15,
+          "max_dd_pct": 61.42,
+          "samples": 28
+        },
+        "perpAllTime": {
+          "net_pct": 0,
+          "sharpe": 3.17,
+          "max_dd_pct": 61.56,
+          "samples": 47
+        }
+      }
+    },
+    {
+      "addr": "0x0d4c14671302e6dc71ed823f553d589a869378f5",
+      "account_value": 1368381.770327,
+      "pnl": 1094664.750327,
+      "roi_pct": 399.92571537,
+      "vol_usd": 10137001.35,
+      "quality": {
+        "day": {
+          "net_pct": -5.63,
+          "sharpe": -2.67,
+          "max_dd_pct": 13.84,
+          "samples": 14
+        },
+        "week": {
+          "net_pct": 108.82,
+          "sharpe": 7.46,
+          "max_dd_pct": 44.33,
+          "samples": 61
+        },
+        "month": {
+          "net_pct": 0,
+          "sharpe": 5.17,
+          "max_dd_pct": 31.65,
+          "samples": 34
+        },
+        "allTime": {
+          "net_pct": 0,
+          "sharpe": 1.61,
+          "max_dd_pct": 44.33,
+          "samples": 49
+        },
+        "perpDay": {
+          "net_pct": -5.64,
+          "sharpe": -0.54,
+          "max_dd_pct": 13.85,
+          "samples": 14
+        },
+        "perpWeek": {
+          "net_pct": 108.98,
+          "sharpe": 3.05,
+          "max_dd_pct": 44.37,
+          "samples": 61
+        },
+        "perpMonth": {
+          "net_pct": 0,
+          "sharpe": 5.19,
+          "max_dd_pct": 31.68,
+          "samples": 34
+        },
+        "perpAllTime": {
+          "net_pct": 0,
+          "sharpe": 4.28,
+          "max_dd_pct": 44.37,
+          "samples": 49
+        }
+      }
+    },
+    {
+      "addr": "0xf4f2f40ceda8da880a4f38d797cebb5950de8ecd",
+      "account_value": 831684.187437,
+      "pnl": 662456.268795,
+      "roi_pct": 391.45800230000003,
+      "vol_usd": 28199004.19,
+      "quality": {
+        "day": {
+          "net_pct": 1.77,
+          "sharpe": 5.0,
+          "max_dd_pct": 16.84,
+          "samples": 13
+        },
+        "week": {
+          "net_pct": 68.66,
+          "sharpe": 7.32,
+          "max_dd_pct": 34.43,
+          "samples": 60
+        },
+        "month": {
+          "net_pct": 398.03,
+          "sharpe": 4.9,
+          "max_dd_pct": 34.75,
+          "samples": 45
+        },
+        "allTime": {
+          "net_pct": 0,
+          "sharpe": 1.92,
+          "max_dd_pct": 50.45,
+          "samples": 44
+        },
+        "perpDay": {
+          "net_pct": 1.77,
+          "sharpe": 1.02,
+          "max_dd_pct": 16.84,
+          "samples": 13
+        },
+        "perpWeek": {
+          "net_pct": 68.66,
+          "sharpe": 2.84,
+          "max_dd_pct": 32.02,
+          "samples": 60
+        },
+        "perpMonth": {
+          "net_pct": 499.85,
+          "sharpe": 3.08,
+          "max_dd_pct": 97.24,
+          "samples": 46
+        },
+        "perpAllTime": {
+          "net_pct": 0,
+          "sharpe": 3.3,
+          "max_dd_pct": 98.62,
+          "samples": 45
+        }
+      }
+    },
+    {
+      "addr": "0x99b3ba1c1b7ad83d0164d996e3d271ae8c842551",
+      "account_value": 444966.577277,
+      "pnl": 657121.497277,
+      "roi_pct": 328.56074864,
+      "vol_usd": 94644952.12,
+      "quality": {
+        "day": {
+          "net_pct": 91.02,
+          "sharpe": 47.11,
+          "max_dd_pct": 14.22,
+          "samples": 17
+        },
+        "week": {
+          "net_pct": 107.4,
+          "sharpe": 7.14,
+          "max_dd_pct": 53.95,
+          "samples": 63
+        },
+        "month": {
+          "net_pct": 0,
+          "sharpe": 1.9,
+          "max_dd_pct": 72.97,
+          "samples": 31
+        },
+        "allTime": {
+          "net_pct": 0,
+          "sharpe": 0.5,
+          "max_dd_pct": 72.97,
+          "samples": 69
+        },
+        "perpDay": {
+          "net_pct": 91.02,
+          "sharpe": 9.62,
+          "max_dd_pct": 14.22,
+          "samples": 17
+        },
+        "perpWeek": {
+          "net_pct": 107.4,
+          "sharpe": 3.4,
+          "max_dd_pct": 93.39,
+          "samples": 63
+        },
+        "perpMonth": {
+          "net_pct": 0,
+          "sharpe": 5.0,
+          "max_dd_pct": 93.39,
+          "samples": 34
+        },
+        "perpAllTime": {
+          "net_pct": 0,
+          "sharpe": 3.38,
+          "max_dd_pct": 93.39,
+          "samples": 70
+        }
+      }
+    },
+    {
+      "addr": "0xaed022949be3988afef024762f1286f3294348af",
+      "account_value": 78825.053638,
+      "pnl": 1122524.98217,
+      "roi_pct": 327.9042707,
+      "vol_usd": 210255663.04,
+      "quality": {
+        "day": {
+          "net_pct": -24.45,
+          "sharpe": -30.79,
+          "max_dd_pct": 30.05,
+          "samples": 15
+        },
+        "week": {
+          "net_pct": -49.89,
+          "sharpe": -7.57,
+          "max_dd_pct": 52.46,
+          "samples": 63
+        },
+        "month": {
+          "net_pct": -77.16,
+          "sharpe": 0.95,
+          "max_dd_pct": 94.42,
+          "samples": 45
+        },
+        "allTime": {
+          "net_pct": 0,
+          "sharpe": 1.34,
+          "max_dd_pct": 100.0,
+          "samples": 39
+        },
+        "perpDay": {
+          "net_pct": -24.45,
+          "sharpe": -6.29,
+          "max_dd_pct": 30.05,
+          "samples": 15
+        },
+        "perpWeek": {
+          "net_pct": -49.89,
+          "sharpe": -3.09,
+          "max_dd_pct": 52.46,
+          "samples": 63
+        },
+        "perpMonth": {
+          "net_pct": -77.16,
+          "sharpe": 0.95,
+          "max_dd_pct": 94.43,
+          "samples": 45
+        },
+        "perpAllTime": {
+          "net_pct": 0,
+          "sharpe": 3.51,
+          "max_dd_pct": 100.0,
+          "samples": 39
+        }
+      }
+    },
+    {
+      "addr": "0x0884051c662892bfcd8a132d1404ab8a3a409cea",
+      "account_value": 353454.2929070001,
+      "pnl": 270654.468127,
+      "roi_pct": 326.87884169,
+      "vol_usd": 37372166.59,
+      "quality": {
+        "day": {
+          "net_pct": -0.43,
+          "sharpe": 4.19,
+          "max_dd_pct": 23.64,
+          "samples": 17
+        },
+        "week": {
+          "net_pct": 113.92,
+          "sharpe": 7.28,
+          "max_dd_pct": 53.3,
+          "samples": 61
+        },
+        "month": {
+          "net_pct": 2095.26,
+          "sharpe": 2.8,
+          "max_dd_pct": 97.06,
+          "samples": 48
+        },
+        "allTime": {
+          "net_pct": 0,
+          "sharpe": 1.49,
+          "max_dd_pct": 99.98,
+          "samples": 54
+        },
+        "perpDay": {
+          "net_pct": -0.43,
+          "sharpe": 0.86,
+          "max_dd_pct": 23.64,
+          "samples": 17
+        },
+        "perpWeek": {
+          "net_pct": 113.92,
+          "sharpe": 2.97,
+          "max_dd_pct": 53.3,
+          "samples": 61
+        },
+        "perpMonth": {
+          "net_pct": 2095.3,
+          "sharpe": 2.8,
+          "max_dd_pct": 97.06,
+          "samples": 48
+        },
+        "perpAllTime": {
+          "net_pct": 0,
+          "sharpe": 3.93,
+          "max_dd_pct": 99.98,
+          "samples": 54
+        }
+      }
+    },
+    {
+      "addr": "0x138e6dc721fecc585f2a9e39ba7d36e1771b1401",
+      "account_value": 71928.466275,
+      "pnl": 93208.446275,
+      "roi_pct": 298.74693516,
+      "vol_usd": 22089523.73,
+      "quality": {
+        "day": {
+          "net_pct": -6.23,
+          "sharpe": 0.24,
+          "max_dd_pct": 32.61,
+          "samples": 15
+        },
+        "week": {
+          "net_pct": -9.69,
+          "sharpe": 1.57,
+          "max_dd_pct": 63.39,
+          "samples": 61
+        },
+        "month": {
+          "net_pct": 0,
+          "sharpe": 4.84,
+          "max_dd_pct": 53.13,
+          "samples": 29
+        },
+        "allTime": {
+          "net_pct": 0,
+          "sharpe": 1.42,
+          "max_dd_pct": 63.39,
+          "samples": 47
+        },
+        "perpDay": {
+          "net_pct": -43.32,
+          "sharpe": -3.15,
+          "max_dd_pct": 46.13,
+          "samples": 15
+        },
+        "perpWeek": {
+          "net_pct": 30.63,
+          "sharpe": 3.89,
+          "max_dd_pct": 93.75,
+          "samples": 61
+        },
+        "perpMonth": {
+          "net_pct": 0,
+          "sharpe": 5.66,
+          "max_dd_pct": 93.51,
+          "samples": 36
+        },
+        "perpAllTime": {
+          "net_pct": 0,
+          "sharpe": 4.74,
+          "max_dd_pct": 93.51,
+          "samples": 50
+        }
+      }
+    },
+    {
+      "addr": "0x7928367337f2315e54b0e2809eae446c99593aa8",
+      "account_value": 53168.539769,
+      "pnl": 81066.05241,
+      "roi_pct": 288.46575527,
+      "vol_usd": 41852947.29,
+      "quality": {
+        "day": {
+          "net_pct": -6.71,
+          "sharpe": -21.34,
+          "max_dd_pct": 8.33,
+          "samples": 13
+        },
+        "week": {
+          "net_pct": -10.29,
+          "sharpe": 0.31,
+          "max_dd_pct": 38.04,
+          "samples": 65
+        },
+        "month": {
+          "net_pct": 89.31,
+          "sharpe": 2.89,
+          "max_dd_pct": 36.85,
+          "samples": 47
+        },
+        "allTime": {
+          "net_pct": 0,
+          "sharpe": 1.94,
+          "max_dd_pct": 100.0,
+          "samples": 70
+        },
+        "perpDay": {
+          "net_pct": -63.06,
+          "sharpe": -8.88,
+          "max_dd_pct": 100.0,
+          "samples": 13
+        },
+        "perpWeek": {
+          "net_pct": -13.42,
+          "sharpe": 0.4,
+          "max_dd_pct": 100.0,
+          "samples": 65
+        },
+        "perpMonth": {
+          "net_pct": -52.19,
+          "sharpe": -0.87,
+          "max_dd_pct": 100.0,
+          "samples": 50
+        },
+        "perpAllTime": {
+          "net_pct": 0,
+          "sharpe": 3.77,
+          "max_dd_pct": 100.0,
+          "samples": 84
+        }
+      }
+    },
+    {
+      "addr": "0x570d7433062055ec1a2736d3636dbf476707bc03",
+      "account_value": 100000.000011,
+      "pnl": 130961.25665,
+      "roi_pct": 285.42980807,
+      "vol_usd": 19196945.57,
+      "quality": {
+        "day": {
+          "net_pct": 28.89,
+          "sharpe": 18.06,
+          "max_dd_pct": 14.92,
+          "samples": 15
+        },
+        "week": {
+          "net_pct": -2.03,
+          "sharpe": 2.42,
+          "max_dd_pct": 49.11,
+          "samples": 62
+        },
+        "month": {
+          "net_pct": 117.95,
+          "sharpe": 3.21,
+          "max_dd_pct": 46.19,
+          "samples": 50
+        },
+        "allTime": {
+          "net_pct": 0,
+          "sharpe": 1.97,
+          "max_dd_pct": 100.0,
+          "samples": 76
+        },
+        "perpDay": {
+          "net_pct": 28.89,
+          "sharpe": 3.69,
+          "max_dd_pct": 14.92,
+          "samples": 15
+        },
+        "perpWeek": {
+          "net_pct": -2.03,
+          "sharpe": 0.99,
+          "max_dd_pct": 49.11,
+          "samples": 62
+        },
+        "perpMonth": {
+          "net_pct": 117.95,
+          "sharpe": 3.21,
+          "max_dd_pct": 46.19,
+          "samples": 50
+        },
+        "perpAllTime": {
+          "net_pct": 0,
+          "sharpe": 5.21,
+          "max_dd_pct": 100.0,
+          "samples": 76
+        }
+      }
+    },
+    {
+      "addr": "0xf205c4d48b92cc9b60ec984721c297e350eac9fa",
+      "account_value": 97405.125633,
+      "pnl": 222016.368318,
+      "roi_pct": 259.22192837,
+      "vol_usd": 6640901.26,
+      "quality": {
+        "day": {
+          "net_pct": 61.57,
+          "sharpe": 25.86,
+          "max_dd_pct": 20.52,
+          "samples": 19
+        },
+        "week": {
+          "net_pct": -18.35,
+          "sharpe": 6.04,
+          "max_dd_pct": 100.0,
+          "samples": 61
+        },
+        "month": {
+          "net_pct": 1336957285.26,
+          "sharpe": 3.0,
+          "max_dd_pct": 100.0,
+          "samples": 47
+        },
+        "allTime": {
+          "net_pct": 0,
+          "sharpe": 1.47,
+          "max_dd_pct": 100.0,
+          "samples": 76
+        },
+        "perpDay": {
+          "net_pct": 61.57,
+          "sharpe": 5.28,
+          "max_dd_pct": 20.52,
+          "samples": 19
+        },
+        "perpWeek": {
+          "net_pct": -18.35,
+          "sharpe": 1.58,
+          "max_dd_pct": 100.0,
+          "samples": 61
+        },
+        "perpMonth": {
+          "net_pct": 0,
+          "sharpe": -0.12,
+          "max_dd_pct": 100.0,
+          "samples": 47
+        },
+        "perpAllTime": {
+          "net_pct": 0,
+          "sharpe": -2.33,
+          "max_dd_pct": 100.0,
+          "samples": 76
+        }
+      }
+    },
+    {
+      "addr": "0x04447ced1ac22abb0b7785cab08e2335a556d9d1",
+      "account_value": 79293.555666,
+      "pnl": 60597.668097,
+      "roi_pct": 240.45853993000003,
+      "vol_usd": 14040205.8,
+      "quality": {
+        "day": {
+          "net_pct": 36.31,
+          "sharpe": 45.12,
+          "max_dd_pct": 6.29,
+          "samples": 13
+        },
+        "week": {
+          "net_pct": 189.42,
+          "sharpe": 13.26,
+          "max_dd_pct": 13.33,
+          "samples": 61
+        },
+        "month": {
+          "net_pct": 0,
+          "sharpe": 4.04,
+          "max_dd_pct": 86.93,
+          "samples": 46
+        },
+        "allTime": {
+          "net_pct": 0,
+          "sharpe": 1.46,
+          "max_dd_pct": 100.0,
+          "samples": 50
+        },
+        "perpDay": {
+          "net_pct": 36.31,
+          "sharpe": 9.21,
+          "max_dd_pct": 6.29,
+          "samples": 13
+        },
+        "perpWeek": {
+          "net_pct": 189.42,
+          "sharpe": 5.42,
+          "max_dd_pct": 13.33,
+          "samples": 61
+        },
+        "perpMonth": {
+          "net_pct": 0,
+          "sharpe": 4.93,
+          "max_dd_pct": 86.93,
+          "samples": 46
+        },
+        "perpAllTime": {
+          "net_pct": 0,
+          "sharpe": 5.17,
+          "max_dd_pct": 100.0,
+          "samples": 50
+        }
+      }
+    },
+    {
+      "addr": "0x873e1c729a12658e4e3f39e927687e424967ccbf",
+      "account_value": 467734.220201,
+      "pnl": 329875.296506,
+      "roi_pct": 239.28472239,
+      "vol_usd": 287572352.72,
+      "quality": {
+        "day": {
+          "net_pct": 10.73,
+          "sharpe": 10.16,
+          "max_dd_pct": 39.68,
+          "samples": 16
+        },
+        "week": {
+          "net_pct": 1.56,
+          "sharpe": 2.31,
+          "max_dd_pct": 48.32,
+          "samples": 66
+        },
+        "month": {
+          "net_pct": 381.09,
+          "sharpe": 4.53,
+          "max_dd_pct": 51.77,
+          "samples": 50
+        },
+        "allTime": {
+          "net_pct": 0,
+          "sharpe": 1.29,
+          "max_dd_pct": 56.3,
+          "samples": 50
+        },
+        "perpDay": {
+          "net_pct": 10.73,
+          "sharpe": 2.07,
+          "max_dd_pct": 39.68,
+          "samples": 16
+        },
+        "perpWeek": {
+          "net_pct": 1.56,
+          "sharpe": 0.95,
+          "max_dd_pct": 48.32,
+          "samples": 66
+        },
+        "perpMonth": {
+          "net_pct": 381.09,
+          "sharpe": 4.53,
+          "max_dd_pct": 51.77,
+          "samples": 50
+        },
+        "perpAllTime": {
+          "net_pct": 0,
+          "sharpe": 3.41,
+          "max_dd_pct": 56.3,
+          "samples": 50
+        }
+      }
+    },
+    {
+      "addr": "0x64aa4bb7bca951cc0914fc920d3b3dcb81f77eac",
+      "account_value": 103530.887176,
+      "pnl": 75116.159279,
+      "roi_pct": 231.67319381000001,
+      "vol_usd": 32939495.37,
+      "quality": {
+        "day": {
+          "net_pct": 25.46,
+          "sharpe": 45.02,
+          "max_dd_pct": 0.45,
+          "samples": 13
+        },
+        "week": {
+          "net_pct": 126.7,
+          "sharpe": 16.53,
+          "max_dd_pct": 7.42,
+          "samples": 63
+        },
+        "month": {
+          "net_pct": 2170.93,
+          "sharpe": 6.17,
+          "max_dd_pct": 54.82,
+          "samples": 47
+        },
+        "allTime": {
+          "net_pct": 0,
+          "sharpe": 1.16,
+          "max_dd_pct": 100.0,
+          "samples": 84
+        },
+        "perpDay": {
+          "net_pct": 0,
+          "sharpe": 0,
+          "max_dd_pct": 100.0,
+          "samples": 13
+        },
+        "perpWeek": {
+          "net_pct": 0,
+          "sharpe": -13.35,
+          "max_dd_pct": 100.0,
+          "samples": 65
+        },
+        "perpMonth": {
+          "net_pct": -100.0,
+          "sharpe": 3.43,
+          "max_dd_pct": 100.0,
+          "samples": 54
+        },
+        "perpAllTime": {
+          "net_pct": 0,
+          "sharpe": 4.17,
+          "max_dd_pct": 100.0,
+          "samples": 96
+        }
+      }
+    },
+    {
+      "addr": "0xfd041f7e1851da14e250b02251d12f896dc172fe",
+      "account_value": 91847.746739,
+      "pnl": 62927.033501,
+      "roi_pct": 217.58465285000003,
+      "vol_usd": 36993533.65,
+      "quality": {
+        "day": {
+          "net_pct": 5.65,
+          "sharpe": 25.36,
+          "max_dd_pct": 2.31,
+          "samples": 13
+        },
+        "week": {
+          "net_pct": 25.01,
+          "sharpe": 5.61,
+          "max_dd_pct": 15.75,
+          "samples": 62
+        },
+        "month": {
+          "net_pct": 4664.6,
+          "sharpe": 7.18,
+          "max_dd_pct": 12.36,
+          "samples": 45
+        },
+        "allTime": {
+          "net_pct": 0,
+          "sharpe": 2.81,
+          "max_dd_pct": 12.36,
+          "samples": 47
+        },
+        "perpDay": {
+          "net_pct": -82.98,
+          "sharpe": -5.62,
+          "max_dd_pct": 87.19,
+          "samples": 13
+        },
+        "perpWeek": {
+          "net_pct": -78.71,
+          "sharpe": 2.23,
+          "max_dd_pct": 100.0,
+          "samples": 62
+        },
+        "perpMonth": {
+          "net_pct": 0,
+          "sharpe": 3.94,
+          "max_dd_pct": 100.0,
+          "samples": 54
+        },
+        "perpAllTime": {
+          "net_pct": 0,
+          "sharpe": 3.58,
+          "max_dd_pct": 100.0,
+          "samples": 56
+        }
+      }
+    },
+    {
+      "addr": "0x0f7707db61e6add7c377757c0aa8068a58e389cc",
+      "account_value": 52932.250535,
+      "pnl": 89673.157737,
+      "roi_pct": 207.24050248,
+      "vol_usd": 9405383.61,
+      "quality": {
+        "day": {
+          "net_pct": 0.54,
+          "sharpe": 4.4,
+          "max_dd_pct": 21.73,
+          "samples": 15
+        },
+        "week": {
+          "net_pct": 5286.79,
+          "sharpe": 7.28,
+          "max_dd_pct": 99.59,
+          "samples": 58
+        },
+        "month": {
+          "net_pct": 1535.94,
+          "sharpe": 4.55,
+          "max_dd_pct": 99.82,
+          "samples": 47
+        },
+        "allTime": {
+          "net_pct": 0,
+          "sharpe": 1.85,
+          "max_dd_pct": 99.86,
+          "samples": 45
+        },
+        "perpDay": {
+          "net_pct": 0.54,
+          "sharpe": 0.9,
+          "max_dd_pct": 21.74,
+          "samples": 15
+        },
+        "perpWeek": {
+          "net_pct": 0,
+          "sharpe": -2.75,
+          "max_dd_pct": 100.0,
+          "samples": 58
+        },
+        "perpMonth": {
+          "net_pct": 1608.87,
+          "sharpe": 2.91,
+          "max_dd_pct": 100.0,
+          "samples": 48
+        },
+        "perpAllTime": {
+          "net_pct": 0,
+          "sharpe": 4.89,
+          "max_dd_pct": 100.0,
+          "samples": 47
+        }
+      }
+    },
+    {
+      "addr": "0xe1d3baa26d94f53897efbeb550d95cc2ab72d5f7",
+      "account_value": 1094492.625011,
+      "pnl": 737946.866765,
+      "roi_pct": 206.97115299,
+      "vol_usd": 17383905.88,
+      "quality": {
+        "day": {
+          "net_pct": -11.34,
+          "sharpe": -5.29,
+          "max_dd_pct": 23.65,
+          "samples": 14
+        },
+        "week": {
+          "net_pct": 92.89,
+          "sharpe": 7.37,
+          "max_dd_pct": 42.79,
+          "samples": 57
+        },
+        "month": {
+          "net_pct": 4547.23,
+          "sharpe": 2.82,
+          "max_dd_pct": 97.71,
+          "samples": 47
+        },
+        "allTime": {
+          "net_pct": 0,
+          "sharpe": 1.06,
+          "max_dd_pct": 97.71,
+          "samples": 48
+        },
+        "perpDay": {
+          "net_pct": -11.34,
+          "sharpe": -1.08,
+          "max_dd_pct": 23.65,
+          "samples": 14
+        },
+        "perpWeek": {
+          "net_pct": 92.89,
+          "sharpe": 3.01,
+          "max_dd_pct": 42.79,
+          "samples": 57
+        },
+        "perpMonth": {
+          "net_pct": 4547.23,
+          "sharpe": -0.75,
+          "max_dd_pct": 100.0,
+          "samples": 47
+        },
+        "perpAllTime": {
+          "net_pct": 0,
+          "sharpe": -0.75,
+          "max_dd_pct": 100.0,
+          "samples": 48
+        }
+      }
+    },
+    {
+      "addr": "0x64276a44aa401a563b9229c735eae77e451586cb",
+      "account_value": 52502.078944,
+      "pnl": 35247.028335,
+      "roi_pct": 204.27079082,
+      "vol_usd": 9175485.12,
+      "quality": {
+        "day": {
+          "net_pct": -25.34,
+          "sharpe": -70.8,
+          "max_dd_pct": 28.75,
+          "samples": 13
+        },
+        "week": {
+          "net_pct": 34.05,
+          "sharpe": 5.36,
+          "max_dd_pct": 28.75,
+          "samples": 64
+        },
+        "month": {
+          "net_pct": 315.16,
+          "sharpe": 2.82,
+          "max_dd_pct": 100.0,
+          "samples": 47
+        },
+        "allTime": {
+          "net_pct": 0,
+          "sharpe": 1.23,
+          "max_dd_pct": 100.0,
+          "samples": 80
+        },
+        "perpDay": {
+          "net_pct": -25.34,
+          "sharpe": -14.45,
+          "max_dd_pct": 28.75,
+          "samples": 13
+        },
+        "perpWeek": {
+          "net_pct": 34.05,
+          "sharpe": 2.19,
+          "max_dd_pct": 28.75,
+          "samples": 64
+        },
+        "perpMonth": {
+          "net_pct": 315.16,
+          "sharpe": 2.82,
+          "max_dd_pct": 100.0,
+          "samples": 47
+        },
+        "perpAllTime": {
+          "net_pct": 0,
+          "sharpe": 3.26,
+          "max_dd_pct": 100.0,
+          "samples": 80
+        }
+      }
+    },
+    {
+      "addr": "0xeca57b3ab6fe52bf5ac90838e6a50116feac0afd",
+      "account_value": 294271.722441,
+      "pnl": 197487.990424,
+      "roi_pct": 204.05081134,
+      "vol_usd": 85118850.08,
+      "quality": {
+        "day": {
+          "net_pct": 93.09,
+          "sharpe": 35.44,
+          "max_dd_pct": 10.45,
+          "samples": 14
+        },
+        "week": {
+          "net_pct": 202.4,
+          "sharpe": 9.22,
+          "max_dd_pct": 35.92,
+          "samples": 59
+        },
+        "month": {
+          "net_pct": 247.18,
+          "sharpe": 3.69,
+          "max_dd_pct": 89.3,
+          "samples": 50
+        },
+        "allTime": {
+          "net_pct": 0,
+          "sharpe": 1.26,
+          "max_dd_pct": 91.04,
+          "samples": 45
+        },
+        "perpDay": {
+          "net_pct": 93.09,
+          "sharpe": 7.23,
+          "max_dd_pct": 10.45,
+          "samples": 14
+        },
+        "perpWeek": {
+          "net_pct": 272.03,
+          "sharpe": 3.64,
+          "max_dd_pct": 91.5,
+          "samples": 59
+        },
+        "perpMonth": {
+          "net_pct": 247.18,
+          "sharpe": 3.92,
+          "max_dd_pct": 100.0,
+          "samples": 53
+        },
+        "perpAllTime": {
+          "net_pct": 0,
+          "sharpe": 3.95,
+          "max_dd_pct": 100.0,
+          "samples": 49
+        }
+      }
+    },
+    {
+      "addr": "0x04cc3147bc87999e5a6b75373daa6ff8f12b38d1",
+      "account_value": 522821.545349,
+      "pnl": 349646.581074,
+      "roi_pct": 200.52239936,
+      "vol_usd": 11519600.34,
+      "quality": {
+        "day": {
+          "net_pct": 25.38,
+          "sharpe": 28.7,
+          "max_dd_pct": 13.17,
+          "samples": 13
+        },
+        "week": {
+          "net_pct": 70.04,
+          "sharpe": 9.03,
+          "max_dd_pct": 20.04,
+          "samples": 62
+        },
+        "month": {
+          "net_pct": 200.49,
+          "sharpe": 4.17,
+          "max_dd_pct": 29.66,
+          "samples": 45
+        },
+        "allTime": {
+          "net_pct": 0,
+          "sharpe": -0.08,
+          "max_dd_pct": 100.0,
+          "samples": 37
+        },
+        "perpDay": {
+          "net_pct": 25.38,
+          "sharpe": 5.86,
+          "max_dd_pct": 13.17,
+          "samples": 13
+        },
+        "perpWeek": {
+          "net_pct": 70.4,
+          "sharpe": 3.72,
+          "max_dd_pct": 22.4,
+          "samples": 62
+        },
+        "perpMonth": {
+          "net_pct": 201.69,
+          "sharpe": 4.17,
+          "max_dd_pct": 29.73,
+          "samples": 45
+        },
+        "perpAllTime": {
+          "net_pct": 0,
+          "sharpe": -0.23,
+          "max_dd_pct": 100.0,
+          "samples": 37
+        }
+      }
+    },
+    {
+      "addr": "0xfc19cc14a007c7a6dbf3d9e3e7480c7394934eda",
+      "account_value": 135316.791499,
+      "pnl": 96487.221624,
+      "roi_pct": 196.79116439999999,
+      "vol_usd": 38238161.87,
+      "quality": {
+        "day": {
+          "net_pct": -3.02,
+          "sharpe": -2.67,
+          "max_dd_pct": 15.89,
+          "samples": 14
+        },
+        "week": {
+          "net_pct": 38.83,
+          "sharpe": 8.21,
+          "max_dd_pct": 15.89,
+          "samples": 62
+        },
+        "month": {
+          "net_pct": 182.05,
+          "sharpe": 4.19,
+          "max_dd_pct": 38.71,
+          "samples": 45
+        },
+        "allTime": {
+          "net_pct": 0,
+          "sharpe": 0.99,
+          "max_dd_pct": 99.97,
+          "samples": 80
+        },
+        "perpDay": {
+          "net_pct": -84.19,
+          "sharpe": 1.31,
+          "max_dd_pct": 85.24,
+          "samples": 14
+        },
+        "perpWeek": {
+          "net_pct": -77.35,
+          "sharpe": 0.91,
+          "max_dd_pct": 85.24,
+          "samples": 63
+        },
+        "perpMonth": {
+          "net_pct": -53.77,
+          "sharpe": 1.94,
+          "max_dd_pct": 85.01,
+          "samples": 49
+        },
+        "perpAllTime": {
+          "net_pct": 0,
+          "sharpe": 3.84,
+          "max_dd_pct": 100.0,
+          "samples": 86
+        }
+      }
+    },
+    {
+      "addr": "0x1d888a88fe88491fd653a107198894c8b59249eb",
+      "account_value": 75356.631314,
+      "pnl": 148401.467495,
+      "roi_pct": 194.27948552,
+      "vol_usd": 56773751.05,
+      "quality": {
+        "day": {
+          "net_pct": 3.37,
+          "sharpe": 12.76,
+          "max_dd_pct": 3.29,
+          "samples": 13
+        },
+        "week": {
+          "net_pct": -8.22,
+          "sharpe": -1.08,
+          "max_dd_pct": 19.53,
+          "samples": 63
+        },
+        "month": {
+          "net_pct": 33.95,
+          "sharpe": 2.14,
+          "max_dd_pct": 29.28,
+          "samples": 46
+        },
+        "allTime": {
+          "net_pct": 0,
+          "sharpe": 1.22,
+          "max_dd_pct": 93.03,
+          "samples": 43
+        },
+        "perpDay": {
+          "net_pct": 367.53,
+          "sharpe": 3.67,
+          "max_dd_pct": 100.0,
+          "samples": 13
+        },
+        "perpWeek": {
+          "net_pct": -32.02,
+          "sharpe": 4.14,
+          "max_dd_pct": 100.0,
+          "samples": 63
+        },
+        "perpMonth": {
+          "net_pct": 243512.4,
+          "sharpe": 2.58,
+          "max_dd_pct": 100.0,
+          "samples": 65
+        },
+        "perpAllTime": {
+          "net_pct": 0,
+          "sharpe": 2.15,
+          "max_dd_pct": 100.0,
+          "samples": 89
+        }
+      }
+    },
+    {
+      "addr": "0xa8ad3b7407031091f27af3bfedf170edc77cf761",
+      "account_value": 225068.182321,
+      "pnl": 146386.020642,
+      "roi_pct": 186.92377866,
+      "vol_usd": 41056869.81,
+      "quality": {
+        "day": {
+          "net_pct": 0.63,
+          "sharpe": 3.06,
+          "max_dd_pct": 8.16,
+          "samples": 13
+        },
+        "week": {
+          "net_pct": 45.18,
+          "sharpe": 5.53,
+          "max_dd_pct": 26.74,
+          "samples": 61
+        },
+        "month": {
+          "net_pct": 614.58,
+          "sharpe": 7.4,
+          "max_dd_pct": 29.35,
+          "samples": 45
+        },
+        "allTime": {
+          "net_pct": 0,
+          "sharpe": 1.08,
+          "max_dd_pct": 99.98,
+          "samples": 97
+        },
+        "perpDay": {
+          "net_pct": -47.46,
+          "sharpe": -5.44,
+          "max_dd_pct": 49.72,
+          "samples": 13
+        },
+        "perpWeek": {
+          "net_pct": -30.19,
+          "sharpe": 0.47,
+          "max_dd_pct": 55.54,
+          "samples": 61
+        },
+        "perpMonth": {
+          "net_pct": 246.9,
+          "sharpe": 4.15,
+          "max_dd_pct": 55.54,
+          "samples": 47
+        },
+        "perpAllTime": {
+          "net_pct": 0,
+          "sharpe": 5.92,
+          "max_dd_pct": 100.0,
+          "samples": 72
+        }
+      }
+    },
+    {
+      "addr": "0x932bdd2d5e21475e62d2fea8158fc5974507cb1a",
+      "account_value": 773658.466071,
+      "pnl": 635238.044385,
+      "roi_pct": 184.28101673,
+      "vol_usd": 155002607.47,
+      "quality": {
+        "day": {
+          "net_pct": 3.05,
+          "sharpe": 6.63,
+          "max_dd_pct": 10.16,
+          "samples": 13
+        },
+        "week": {
+          "net_pct": 24.09,
+          "sharpe": 4.17,
+          "max_dd_pct": 38.11,
+          "samples": 64
+        },
+        "month": {
+          "net_pct": 7624.76,
+          "sharpe": 5.46,
+          "max_dd_pct": 56.75,
+          "samples": 46
+        },
+        "allTime": {
+          "net_pct": 0,
+          "sharpe": 1.09,
+          "max_dd_pct": 99.98,
+          "samples": 65
+        },
+        "perpDay": {
+          "net_pct": 3.05,
+          "sharpe": 1.35,
+          "max_dd_pct": 10.16,
+          "samples": 13
+        },
+        "perpWeek": {
+          "net_pct": 24.1,
+          "sharpe": 1.7,
+          "max_dd_pct": 38.12,
+          "samples": 64
+        },
+        "perpMonth": {
+          "net_pct": 7650.48,
+          "sharpe": 5.46,
+          "max_dd_pct": 56.78,
+          "samples": 46
+        },
+        "perpAllTime": {
+          "net_pct": 0,
+          "sharpe": 4.02,
+          "max_dd_pct": 100.0,
+          "samples": 65
+        }
+      }
+    },
+    {
+      "addr": "0x74dd1b672c1efbdd2559aa39e31cb56792a151bd",
+      "account_value": 70319.327007,
+      "pnl": 58109.451218,
+      "roi_pct": 180.40898375,
+      "vol_usd": 6744344.15,
+      "quality": {
+        "day": {
+          "net_pct": -0.24,
+          "sharpe": -17.63,
+          "max_dd_pct": 0.34,
+          "samples": 13
+        },
+        "week": {
+          "net_pct": -4.28,
+          "sharpe": 0.2,
+          "max_dd_pct": 26.2,
+          "samples": 65
+        },
+        "month": {
+          "net_pct": 117.57,
+          "sharpe": 5.09,
+          "max_dd_pct": 26.2,
+          "samples": 47
+        },
+        "allTime": {
+          "net_pct": 0,
+          "sharpe": 1.22,
+          "max_dd_pct": 43.12,
+          "samples": 48
+        },
+        "perpDay": {
+          "net_pct": -0.24,
+          "sharpe": -3.6,
+          "max_dd_pct": 0.34,
+          "samples": 13
+        },
+        "perpWeek": {
+          "net_pct": -5.08,
+          "sharpe": 0.04,
+          "max_dd_pct": 26.96,
+          "samples": 65
+        },
+        "perpMonth": {
+          "net_pct": 115.77,
+          "sharpe": 5.01,
+          "max_dd_pct": 26.96,
+          "samples": 47
+        },
+        "perpAllTime": {
+          "net_pct": 0,
+          "sharpe": 3.89,
+          "max_dd_pct": 42.35,
+          "samples": 47
+        }
+      }
+    },
+    {
+      "addr": "0x5ce73b3e8396c24dd3229b624744f5ee611dc5c8",
+      "account_value": 303328.299142,
+      "pnl": 241316.09,
+      "roi_pct": 178.03857949,
+      "vol_usd": 36769479.88,
+      "quality": {
+        "day": {
+          "net_pct": 4.64,
+          "sharpe": 8.06,
+          "max_dd_pct": 38.98,
+          "samples": 17
+        },
+        "week": {
+          "net_pct": 452.97,
+          "sharpe": 10.76,
+          "max_dd_pct": 51.47,
+          "samples": 63
+        },
+        "month": {
+          "net_pct": 0,
+          "sharpe": 7.93,
+          "max_dd_pct": 36.73,
+          "samples": 26
+        },
+        "allTime": {
+          "net_pct": 0,
+          "sharpe": 1.72,
+          "max_dd_pct": 51.47,
+          "samples": 69
+        },
+        "perpDay": {
+          "net_pct": 0,
+          "sharpe": -3.45,
+          "max_dd_pct": 100.0,
+          "samples": 17
+        },
+        "perpWeek": {
+          "net_pct": -100.0,
+          "sharpe": 1.15,
+          "max_dd_pct": 100.0,
+          "samples": 63
+        },
+        "perpMonth": {
+          "net_pct": 0,
+          "sharpe": 1.86,
+          "max_dd_pct": 100.0,
+          "samples": 27
+        },
+        "perpAllTime": {
+          "net_pct": 0,
+          "sharpe": 1.57,
+          "max_dd_pct": 100.0,
+          "samples": 69
+        }
+      }
+    },
+    {
+      "addr": "0xec050ec4c8d177ac617ca85c7ad145b05b825649",
+      "account_value": 102023.420816,
+      "pnl": 64433.808711,
+      "roi_pct": 170.95906567,
+      "vol_usd": 8186203.06,
+      "quality": {
+        "day": {
+          "net_pct": 1.36,
+          "sharpe": 4.09,
+          "max_dd_pct": 14.72,
+          "samples": 14
+        },
+        "week": {
+          "net_pct": 24.76,
+          "sharpe": 6.56,
+          "max_dd_pct": 7.43,
+          "samples": 62
+        },
+        "month": {
+          "net_pct": 167.97,
+          "sharpe": 6.21,
+          "max_dd_pct": 17.93,
+          "samples": 45
+        },
+        "allTime": {
+          "net_pct": 0,
+          "sharpe": 1.47,
+          "max_dd_pct": 65.15,
+          "samples": 38
+        },
+        "perpDay": {
+          "net_pct": 3.09,
+          "sharpe": 1.29,
+          "max_dd_pct": 15.3,
+          "samples": 14
+        },
+        "perpWeek": {
+          "net_pct": 25.31,
+          "sharpe": 2.65,
+          "max_dd_pct": 8.38,
+          "samples": 62
+        },
+        "perpMonth": {
+          "net_pct": 110.36,
+          "sharpe": 4.47,
+          "max_dd_pct": 18.34,
+          "samples": 45
+        },
+        "perpAllTime": {
+          "net_pct": 0,
+          "sharpe": 3.52,
+          "max_dd_pct": 65.47,
+          "samples": 38
+        }
+      }
+    }
+  ],
+  "keepers": [
+    {
+      "addr": "0x5ce73b3e8396c24dd3229b624744f5ee611dc5c8",
+      "account_value": 303328.299142,
+      "pnl": 241316.09,
+      "roi_pct": 178.03857949,
+      "vol_usd": 36769479.88,
+      "quality": {
+        "day": {
+          "net_pct": 4.64,
+          "sharpe": 8.06,
+          "max_dd_pct": 38.98,
+          "samples": 17
+        },
+        "week": {
+          "net_pct": 452.97,
+          "sharpe": 10.76,
+          "max_dd_pct": 51.47,
+          "samples": 63
+        },
+        "month": {
+          "net_pct": 0,
+          "sharpe": 7.93,
+          "max_dd_pct": 36.73,
+          "samples": 26
+        },
+        "allTime": {
+          "net_pct": 0,
+          "sharpe": 1.72,
+          "max_dd_pct": 51.47,
+          "samples": 69
+        },
+        "perpDay": {
+          "net_pct": 0,
+          "sharpe": -3.45,
+          "max_dd_pct": 100.0,
+          "samples": 17
+        },
+        "perpWeek": {
+          "net_pct": -100.0,
+          "sharpe": 1.15,
+          "max_dd_pct": 100.0,
+          "samples": 63
+        },
+        "perpMonth": {
+          "net_pct": 0,
+          "sharpe": 1.86,
+          "max_dd_pct": 100.0,
+          "samples": 27
+        },
+        "perpAllTime": {
+          "net_pct": 0,
+          "sharpe": 1.57,
+          "max_dd_pct": 100.0,
+          "samples": 69
+        }
+      }
+    },
+    {
+      "addr": "0xa8ad3b7407031091f27af3bfedf170edc77cf761",
+      "account_value": 225068.182321,
+      "pnl": 146386.020642,
+      "roi_pct": 186.92377866,
+      "vol_usd": 41056869.81,
+      "quality": {
+        "day": {
+          "net_pct": 0.63,
+          "sharpe": 3.06,
+          "max_dd_pct": 8.16,
+          "samples": 13
+        },
+        "week": {
+          "net_pct": 45.18,
+          "sharpe": 5.53,
+          "max_dd_pct": 26.74,
+          "samples": 61
+        },
+        "month": {
+          "net_pct": 614.58,
+          "sharpe": 7.4,
+          "max_dd_pct": 29.35,
+          "samples": 45
+        },
+        "allTime": {
+          "net_pct": 0,
+          "sharpe": 1.08,
+          "max_dd_pct": 99.98,
+          "samples": 97
+        },
+        "perpDay": {
+          "net_pct": -47.46,
+          "sharpe": -5.44,
+          "max_dd_pct": 49.72,
+          "samples": 13
+        },
+        "perpWeek": {
+          "net_pct": -30.19,
+          "sharpe": 0.47,
+          "max_dd_pct": 55.54,
+          "samples": 61
+        },
+        "perpMonth": {
+          "net_pct": 246.9,
+          "sharpe": 4.15,
+          "max_dd_pct": 55.54,
+          "samples": 47
+        },
+        "perpAllTime": {
+          "net_pct": 0,
+          "sharpe": 5.92,
+          "max_dd_pct": 100.0,
+          "samples": 72
+        }
+      }
+    },
+    {
+      "addr": "0xfd041f7e1851da14e250b02251d12f896dc172fe",
+      "account_value": 91847.746739,
+      "pnl": 62927.033501,
+      "roi_pct": 217.58465285000003,
+      "vol_usd": 36993533.65,
+      "quality": {
+        "day": {
+          "net_pct": 5.65,
+          "sharpe": 25.36,
+          "max_dd_pct": 2.31,
+          "samples": 13
+        },
+        "week": {
+          "net_pct": 25.01,
+          "sharpe": 5.61,
+          "max_dd_pct": 15.75,
+          "samples": 62
+        },
+        "month": {
+          "net_pct": 4664.6,
+          "sharpe": 7.18,
+          "max_dd_pct": 12.36,
+          "samples": 45
+        },
+        "allTime": {
+          "net_pct": 0,
+          "sharpe": 2.81,
+          "max_dd_pct": 12.36,
+          "samples": 47
+        },
+        "perpDay": {
+          "net_pct": -82.98,
+          "sharpe": -5.62,
+          "max_dd_pct": 87.19,
+          "samples": 13
+        },
+        "perpWeek": {
+          "net_pct": -78.71,
+          "sharpe": 2.23,
+          "max_dd_pct": 100.0,
+          "samples": 62
+        },
+        "perpMonth": {
+          "net_pct": 0,
+          "sharpe": 3.94,
+          "max_dd_pct": 100.0,
+          "samples": 54
+        },
+        "perpAllTime": {
+          "net_pct": 0,
+          "sharpe": 3.58,
+          "max_dd_pct": 100.0,
+          "samples": 56
+        }
+      }
+    },
+    {
+      "addr": "0xcf67e4da9e9cd38c0afd26338d0fbddb3036eb24",
+      "account_value": 522476.786137,
+      "pnl": 472442.53241,
+      "roi_pct": 946.66308743,
+      "vol_usd": 6563180.24,
+      "quality": {
+        "day": {
+          "net_pct": 10.39,
+          "sharpe": 20.0,
+          "max_dd_pct": 8.18,
+          "samples": 13
+        },
+        "week": {
+          "net_pct": 102.77,
+          "sharpe": 11.14,
+          "max_dd_pct": 18.02,
+          "samples": 62
+        },
+        "month": {
+          "net_pct": 0,
+          "sharpe": 6.81,
+          "max_dd_pct": 16.22,
+          "samples": 31
+        },
+        "allTime": {
+          "net_pct": 0,
+          "sharpe": 2.03,
+          "max_dd_pct": 17.93,
+          "samples": 47
+        },
+        "perpDay": {
+          "net_pct": 8.03,
+          "sharpe": 3.16,
+          "max_dd_pct": 9.31,
+          "samples": 13
+        },
+        "perpWeek": {
+          "net_pct": 98.65,
+          "sharpe": 4.31,
+          "max_dd_pct": 19.02,
+          "samples": 62
+        },
+        "perpMonth": {
+          "net_pct": 0,
+          "sharpe": 6.92,
+          "max_dd_pct": 17.22,
+          "samples": 31
+        },
+        "perpAllTime": {
+          "net_pct": 0,
+          "sharpe": 5.47,
+          "max_dd_pct": 18.93,
+          "samples": 47
+        }
+      }
+    },
+    {
+      "addr": "0x096eceb86a9d9a2baa07315464daaa84d0cc07d1",
+      "account_value": 104091.774221,
+      "pnl": 88720.380249,
+      "roi_pct": 577.1784941,
+      "vol_usd": 10944253.45,
+      "quality": {
+        "day": {
+          "net_pct": 0.28,
+          "sharpe": 3.12,
+          "max_dd_pct": 1.58,
+          "samples": 13
+        },
+        "week": {
+          "net_pct": 10.67,
+          "sharpe": 7.55,
+          "max_dd_pct": 3.25,
+          "samples": 64
+        },
+        "month": {
+          "net_pct": 577.18,
+          "sharpe": 6.69,
+          "max_dd_pct": 10.81,
+          "samples": 45
+        },
+        "allTime": {
+          "net_pct": 0,
+          "sharpe": 1.25,
+          "max_dd_pct": 90.27,
+          "samples": 37
+        },
+        "perpDay": {
+          "net_pct": 0,
+          "sharpe": -9.14,
+          "max_dd_pct": 64.8,
+          "samples": 13
+        },
+        "perpWeek": {
+          "net_pct": 50.0,
+          "sharpe": 1.47,
+          "max_dd_pct": 100.0,
+          "samples": 64
+        },
+        "perpMonth": {
+          "net_pct": -50.72,
+          "sharpe": 3.55,
+          "max_dd_pct": 100.0,
+          "samples": 51
+        },
+        "perpAllTime": {
+          "net_pct": 0,
+          "sharpe": 2.94,
+          "max_dd_pct": 100.0,
+          "samples": 54
+        }
+      }
+    },
+    {
+      "addr": "0xec050ec4c8d177ac617ca85c7ad145b05b825649",
+      "account_value": 102023.420816,
+      "pnl": 64433.808711,
+      "roi_pct": 170.95906567,
+      "vol_usd": 8186203.06,
+      "quality": {
+        "day": {
+          "net_pct": 1.36,
+          "sharpe": 4.09,
+          "max_dd_pct": 14.72,
+          "samples": 14
+        },
+        "week": {
+          "net_pct": 24.76,
+          "sharpe": 6.56,
+          "max_dd_pct": 7.43,
+          "samples": 62
+        },
+        "month": {
+          "net_pct": 167.97,
+          "sharpe": 6.21,
+          "max_dd_pct": 17.93,
+          "samples": 45
+        },
+        "allTime": {
+          "net_pct": 0,
+          "sharpe": 1.47,
+          "max_dd_pct": 65.15,
+          "samples": 38
+        },
+        "perpDay": {
+          "net_pct": 3.09,
+          "sharpe": 1.29,
+          "max_dd_pct": 15.3,
+          "samples": 14
+        },
+        "perpWeek": {
+          "net_pct": 25.31,
+          "sharpe": 2.65,
+          "max_dd_pct": 8.38,
+          "samples": 62
+        },
+        "perpMonth": {
+          "net_pct": 110.36,
+          "sharpe": 4.47,
+          "max_dd_pct": 18.34,
+          "samples": 45
+        },
+        "perpAllTime": {
+          "net_pct": 0,
+          "sharpe": 3.52,
+          "max_dd_pct": 65.47,
+          "samples": 38
+        }
+      }
+    },
+    {
+      "addr": "0x64aa4bb7bca951cc0914fc920d3b3dcb81f77eac",
+      "account_value": 103530.887176,
+      "pnl": 75116.159279,
+      "roi_pct": 231.67319381000001,
+      "vol_usd": 32939495.37,
+      "quality": {
+        "day": {
+          "net_pct": 25.46,
+          "sharpe": 45.02,
+          "max_dd_pct": 0.45,
+          "samples": 13
+        },
+        "week": {
+          "net_pct": 126.7,
+          "sharpe": 16.53,
+          "max_dd_pct": 7.42,
+          "samples": 63
+        },
+        "month": {
+          "net_pct": 2170.93,
+          "sharpe": 6.17,
+          "max_dd_pct": 54.82,
+          "samples": 47
+        },
+        "allTime": {
+          "net_pct": 0,
+          "sharpe": 1.16,
+          "max_dd_pct": 100.0,
+          "samples": 84
+        },
+        "perpDay": {
+          "net_pct": 0,
+          "sharpe": 0,
+          "max_dd_pct": 100.0,
+          "samples": 13
+        },
+        "perpWeek": {
+          "net_pct": 0,
+          "sharpe": -13.35,
+          "max_dd_pct": 100.0,
+          "samples": 65
+        },
+        "perpMonth": {
+          "net_pct": -100.0,
+          "sharpe": 3.43,
+          "max_dd_pct": 100.0,
+          "samples": 54
+        },
+        "perpAllTime": {
+          "net_pct": 0,
+          "sharpe": 4.17,
+          "max_dd_pct": 100.0,
+          "samples": 96
+        }
+      }
+    },
+    {
+      "addr": "0xc387339879190ec6bb5dd0ceae32f9e1d2ed386d",
+      "account_value": 225737.364248,
+      "pnl": 203395.27032,
+      "roi_pct": 473.65009881000003,
+      "vol_usd": 27138377.21,
+      "quality": {
+        "day": {
+          "net_pct": -10.21,
+          "sharpe": -14.97,
+          "max_dd_pct": 20.94,
+          "samples": 14
+        },
+        "week": {
+          "net_pct": 95.37,
+          "sharpe": 9.22,
+          "max_dd_pct": 20.94,
+          "samples": 61
+        },
+        "month": {
+          "net_pct": 433.26,
+          "sharpe": 5.83,
+          "max_dd_pct": 29.44,
+          "samples": 46
+        },
+        "allTime": {
+          "net_pct": 0,
+          "sharpe": 1.24,
+          "max_dd_pct": 100.0,
+          "samples": 46
+        },
+        "perpDay": {
+          "net_pct": -10.21,
+          "sharpe": -3.06,
+          "max_dd_pct": 20.94,
+          "samples": 14
+        },
+        "perpWeek": {
+          "net_pct": 95.37,
+          "sharpe": 3.77,
+          "max_dd_pct": 20.94,
+          "samples": 61
+        },
+        "perpMonth": {
+          "net_pct": 433.26,
+          "sharpe": 5.83,
+          "max_dd_pct": 29.44,
+          "samples": 46
+        },
+        "perpAllTime": {
+          "net_pct": 0,
+          "sharpe": 3.27,
+          "max_dd_pct": 100.0,
+          "samples": 46
+        }
+      }
+    },
+    {
+      "addr": "0x932bdd2d5e21475e62d2fea8158fc5974507cb1a",
+      "account_value": 773658.466071,
+      "pnl": 635238.044385,
+      "roi_pct": 184.28101673,
+      "vol_usd": 155002607.47,
+      "quality": {
+        "day": {
+          "net_pct": 3.05,
+          "sharpe": 6.63,
+          "max_dd_pct": 10.16,
+          "samples": 13
+        },
+        "week": {
+          "net_pct": 24.09,
+          "sharpe": 4.17,
+          "max_dd_pct": 38.11,
+          "samples": 64
+        },
+        "month": {
+          "net_pct": 7624.76,
+          "sharpe": 5.46,
+          "max_dd_pct": 56.75,
+          "samples": 46
+        },
+        "allTime": {
+          "net_pct": 0,
+          "sharpe": 1.09,
+          "max_dd_pct": 99.98,
+          "samples": 65
+        },
+        "perpDay": {
+          "net_pct": 3.05,
+          "sharpe": 1.35,
+          "max_dd_pct": 10.16,
+          "samples": 13
+        },
+        "perpWeek": {
+          "net_pct": 24.1,
+          "sharpe": 1.7,
+          "max_dd_pct": 38.12,
+          "samples": 64
+        },
+        "perpMonth": {
+          "net_pct": 7650.48,
+          "sharpe": 5.46,
+          "max_dd_pct": 56.78,
+          "samples": 46
+        },
+        "perpAllTime": {
+          "net_pct": 0,
+          "sharpe": 4.02,
+          "max_dd_pct": 100.0,
+          "samples": 65
+        }
+      }
+    },
+    {
+      "addr": "0x0d4c14671302e6dc71ed823f553d589a869378f5",
+      "account_value": 1368381.770327,
+      "pnl": 1094664.750327,
+      "roi_pct": 399.92571537,
+      "vol_usd": 10137001.35,
+      "quality": {
+        "day": {
+          "net_pct": -5.63,
+          "sharpe": -2.67,
+          "max_dd_pct": 13.84,
+          "samples": 14
+        },
+        "week": {
+          "net_pct": 108.82,
+          "sharpe": 7.46,
+          "max_dd_pct": 44.33,
+          "samples": 61
+        },
+        "month": {
+          "net_pct": 0,
+          "sharpe": 5.17,
+          "max_dd_pct": 31.65,
+          "samples": 34
+        },
+        "allTime": {
+          "net_pct": 0,
+          "sharpe": 1.61,
+          "max_dd_pct": 44.33,
+          "samples": 49
+        },
+        "perpDay": {
+          "net_pct": -5.64,
+          "sharpe": -0.54,
+          "max_dd_pct": 13.85,
+          "samples": 14
+        },
+        "perpWeek": {
+          "net_pct": 108.98,
+          "sharpe": 3.05,
+          "max_dd_pct": 44.37,
+          "samples": 61
+        },
+        "perpMonth": {
+          "net_pct": 0,
+          "sharpe": 5.19,
+          "max_dd_pct": 31.68,
+          "samples": 34
+        },
+        "perpAllTime": {
+          "net_pct": 0,
+          "sharpe": 4.28,
+          "max_dd_pct": 44.37,
+          "samples": 49
+        }
+      }
+    },
+    {
+      "addr": "0x74dd1b672c1efbdd2559aa39e31cb56792a151bd",
+      "account_value": 70319.327007,
+      "pnl": 58109.451218,
+      "roi_pct": 180.40898375,
+      "vol_usd": 6744344.15,
+      "quality": {
+        "day": {
+          "net_pct": -0.24,
+          "sharpe": -17.63,
+          "max_dd_pct": 0.34,
+          "samples": 13
+        },
+        "week": {
+          "net_pct": -4.28,
+          "sharpe": 0.2,
+          "max_dd_pct": 26.2,
+          "samples": 65
+        },
+        "month": {
+          "net_pct": 117.57,
+          "sharpe": 5.09,
+          "max_dd_pct": 26.2,
+          "samples": 47
+        },
+        "allTime": {
+          "net_pct": 0,
+          "sharpe": 1.22,
+          "max_dd_pct": 43.12,
+          "samples": 48
+        },
+        "perpDay": {
+          "net_pct": -0.24,
+          "sharpe": -3.6,
+          "max_dd_pct": 0.34,
+          "samples": 13
+        },
+        "perpWeek": {
+          "net_pct": -5.08,
+          "sharpe": 0.04,
+          "max_dd_pct": 26.96,
+          "samples": 65
+        },
+        "perpMonth": {
+          "net_pct": 115.77,
+          "sharpe": 5.01,
+          "max_dd_pct": 26.96,
+          "samples": 47
+        },
+        "perpAllTime": {
+          "net_pct": 0,
+          "sharpe": 3.89,
+          "max_dd_pct": 42.35,
+          "samples": 47
+        }
+      }
+    },
+    {
+      "addr": "0x07642cbbd81e075d3bf14e0f6c1017f20c525572",
+      "account_value": 517696.671862,
+      "pnl": 530170.241862,
+      "roi_pct": 426.99084935,
+      "vol_usd": 77750666.02,
+      "quality": {
+        "day": {
+          "net_pct": 15.87,
+          "sharpe": 14.06,
+          "max_dd_pct": 13.87,
+          "samples": 17
+        },
+        "week": {
+          "net_pct": 93.58,
+          "sharpe": 7.09,
+          "max_dd_pct": 28.95,
+          "samples": 61
+        },
+        "month": {
+          "net_pct": 0,
+          "sharpe": 4.93,
+          "max_dd_pct": 41.85,
+          "samples": 28
+        },
+        "allTime": {
+          "net_pct": 0,
+          "sharpe": 1.43,
+          "max_dd_pct": 41.85,
+          "samples": 46
+        },
+        "perpDay": {
+          "net_pct": 15.87,
+          "sharpe": 2.86,
+          "max_dd_pct": 14.04,
+          "samples": 17
+        },
+        "perpWeek": {
+          "net_pct": 93.58,
+          "sharpe": 2.84,
+          "max_dd_pct": 65.61,
+          "samples": 61
+        },
+        "perpMonth": {
+          "net_pct": 0,
+          "sharpe": 4.15,
+          "max_dd_pct": 61.42,
+          "samples": 28
+        },
+        "perpAllTime": {
+          "net_pct": 0,
+          "sharpe": 3.17,
+          "max_dd_pct": 61.56,
+          "samples": 47
+        }
+      }
+    },
+    {
+      "addr": "0xf4f2f40ceda8da880a4f38d797cebb5950de8ecd",
+      "account_value": 831684.187437,
+      "pnl": 662456.268795,
+      "roi_pct": 391.45800230000003,
+      "vol_usd": 28199004.19,
+      "quality": {
+        "day": {
+          "net_pct": 1.77,
+          "sharpe": 5.0,
+          "max_dd_pct": 16.84,
+          "samples": 13
+        },
+        "week": {
+          "net_pct": 68.66,
+          "sharpe": 7.32,
+          "max_dd_pct": 34.43,
+          "samples": 60
+        },
+        "month": {
+          "net_pct": 398.03,
+          "sharpe": 4.9,
+          "max_dd_pct": 34.75,
+          "samples": 45
+        },
+        "allTime": {
+          "net_pct": 0,
+          "sharpe": 1.92,
+          "max_dd_pct": 50.45,
+          "samples": 44
+        },
+        "perpDay": {
+          "net_pct": 1.77,
+          "sharpe": 1.02,
+          "max_dd_pct": 16.84,
+          "samples": 13
+        },
+        "perpWeek": {
+          "net_pct": 68.66,
+          "sharpe": 2.84,
+          "max_dd_pct": 32.02,
+          "samples": 60
+        },
+        "perpMonth": {
+          "net_pct": 499.85,
+          "sharpe": 3.08,
+          "max_dd_pct": 97.24,
+          "samples": 46
+        },
+        "perpAllTime": {
+          "net_pct": 0,
+          "sharpe": 3.3,
+          "max_dd_pct": 98.62,
+          "samples": 45
+        }
+      }
+    },
+    {
+      "addr": "0x138e6dc721fecc585f2a9e39ba7d36e1771b1401",
+      "account_value": 71928.466275,
+      "pnl": 93208.446275,
+      "roi_pct": 298.74693516,
+      "vol_usd": 22089523.73,
+      "quality": {
+        "day": {
+          "net_pct": -6.23,
+          "sharpe": 0.24,
+          "max_dd_pct": 32.61,
+          "samples": 15
+        },
+        "week": {
+          "net_pct": -9.69,
+          "sharpe": 1.57,
+          "max_dd_pct": 63.39,
+          "samples": 61
+        },
+        "month": {
+          "net_pct": 0,
+          "sharpe": 4.84,
+          "max_dd_pct": 53.13,
+          "samples": 29
+        },
+        "allTime": {
+          "net_pct": 0,
+          "sharpe": 1.42,
+          "max_dd_pct": 63.39,
+          "samples": 47
+        },
+        "perpDay": {
+          "net_pct": -43.32,
+          "sharpe": -3.15,
+          "max_dd_pct": 46.13,
+          "samples": 15
+        },
+        "perpWeek": {
+          "net_pct": 30.63,
+          "sharpe": 3.89,
+          "max_dd_pct": 93.75,
+          "samples": 61
+        },
+        "perpMonth": {
+          "net_pct": 0,
+          "sharpe": 5.66,
+          "max_dd_pct": 93.51,
+          "samples": 36
+        },
+        "perpAllTime": {
+          "net_pct": 0,
+          "sharpe": 4.74,
+          "max_dd_pct": 93.51,
+          "samples": 50
+        }
+      }
+    },
+    {
+      "addr": "0x0f7707db61e6add7c377757c0aa8068a58e389cc",
+      "account_value": 52932.250535,
+      "pnl": 89673.157737,
+      "roi_pct": 207.24050248,
+      "vol_usd": 9405383.61,
+      "quality": {
+        "day": {
+          "net_pct": 0.54,
+          "sharpe": 4.4,
+          "max_dd_pct": 21.73,
+          "samples": 15
+        },
+        "week": {
+          "net_pct": 5286.79,
+          "sharpe": 7.28,
+          "max_dd_pct": 99.59,
+          "samples": 58
+        },
+        "month": {
+          "net_pct": 1535.94,
+          "sharpe": 4.55,
+          "max_dd_pct": 99.82,
+          "samples": 47
+        },
+        "allTime": {
+          "net_pct": 0,
+          "sharpe": 1.85,
+          "max_dd_pct": 99.86,
+          "samples": 45
+        },
+        "perpDay": {
+          "net_pct": 0.54,
+          "sharpe": 0.9,
+          "max_dd_pct": 21.74,
+          "samples": 15
+        },
+        "perpWeek": {
+          "net_pct": 0,
+          "sharpe": -2.75,
+          "max_dd_pct": 100.0,
+          "samples": 58
+        },
+        "perpMonth": {
+          "net_pct": 1608.87,
+          "sharpe": 2.91,
+          "max_dd_pct": 100.0,
+          "samples": 48
+        },
+        "perpAllTime": {
+          "net_pct": 0,
+          "sharpe": 4.89,
+          "max_dd_pct": 100.0,
+          "samples": 47
+        }
+      }
+    },
+    {
+      "addr": "0x873e1c729a12658e4e3f39e927687e424967ccbf",
+      "account_value": 467734.220201,
+      "pnl": 329875.296506,
+      "roi_pct": 239.28472239,
+      "vol_usd": 287572352.72,
+      "quality": {
+        "day": {
+          "net_pct": 10.73,
+          "sharpe": 10.16,
+          "max_dd_pct": 39.68,
+          "samples": 16
+        },
+        "week": {
+          "net_pct": 1.56,
+          "sharpe": 2.31,
+          "max_dd_pct": 48.32,
+          "samples": 66
+        },
+        "month": {
+          "net_pct": 381.09,
+          "sharpe": 4.53,
+          "max_dd_pct": 51.77,
+          "samples": 50
+        },
+        "allTime": {
+          "net_pct": 0,
+          "sharpe": 1.29,
+          "max_dd_pct": 56.3,
+          "samples": 50
+        },
+        "perpDay": {
+          "net_pct": 10.73,
+          "sharpe": 2.07,
+          "max_dd_pct": 39.68,
+          "samples": 16
+        },
+        "perpWeek": {
+          "net_pct": 1.56,
+          "sharpe": 0.95,
+          "max_dd_pct": 48.32,
+          "samples": 66
+        },
+        "perpMonth": {
+          "net_pct": 381.09,
+          "sharpe": 4.53,
+          "max_dd_pct": 51.77,
+          "samples": 50
+        },
+        "perpAllTime": {
+          "net_pct": 0,
+          "sharpe": 3.41,
+          "max_dd_pct": 56.3,
+          "samples": 50
+        }
+      }
+    },
+    {
+      "addr": "0xfc19cc14a007c7a6dbf3d9e3e7480c7394934eda",
+      "account_value": 135316.791499,
+      "pnl": 96487.221624,
+      "roi_pct": 196.79116439999999,
+      "vol_usd": 38238161.87,
+      "quality": {
+        "day": {
+          "net_pct": -3.02,
+          "sharpe": -2.67,
+          "max_dd_pct": 15.89,
+          "samples": 14
+        },
+        "week": {
+          "net_pct": 38.83,
+          "sharpe": 8.21,
+          "max_dd_pct": 15.89,
+          "samples": 62
+        },
+        "month": {
+          "net_pct": 182.05,
+          "sharpe": 4.19,
+          "max_dd_pct": 38.71,
+          "samples": 45
+        },
+        "allTime": {
+          "net_pct": 0,
+          "sharpe": 0.99,
+          "max_dd_pct": 99.97,
+          "samples": 80
+        },
+        "perpDay": {
+          "net_pct": -84.19,
+          "sharpe": 1.31,
+          "max_dd_pct": 85.24,
+          "samples": 14
+        },
+        "perpWeek": {
+          "net_pct": -77.35,
+          "sharpe": 0.91,
+          "max_dd_pct": 85.24,
+          "samples": 63
+        },
+        "perpMonth": {
+          "net_pct": -53.77,
+          "sharpe": 1.94,
+          "max_dd_pct": 85.01,
+          "samples": 49
+        },
+        "perpAllTime": {
+          "net_pct": 0,
+          "sharpe": 3.84,
+          "max_dd_pct": 100.0,
+          "samples": 86
+        }
+      }
+    },
+    {
+      "addr": "0x04cc3147bc87999e5a6b75373daa6ff8f12b38d1",
+      "account_value": 522821.545349,
+      "pnl": 349646.581074,
+      "roi_pct": 200.52239936,
+      "vol_usd": 11519600.34,
+      "quality": {
+        "day": {
+          "net_pct": 25.38,
+          "sharpe": 28.7,
+          "max_dd_pct": 13.17,
+          "samples": 13
+        },
+        "week": {
+          "net_pct": 70.04,
+          "sharpe": 9.03,
+          "max_dd_pct": 20.04,
+          "samples": 62
+        },
+        "month": {
+          "net_pct": 200.49,
+          "sharpe": 4.17,
+          "max_dd_pct": 29.66,
+          "samples": 45
+        },
+        "allTime": {
+          "net_pct": 0,
+          "sharpe": -0.08,
+          "max_dd_pct": 100.0,
+          "samples": 37
+        },
+        "perpDay": {
+          "net_pct": 25.38,
+          "sharpe": 5.86,
+          "max_dd_pct": 13.17,
+          "samples": 13
+        },
+        "perpWeek": {
+          "net_pct": 70.4,
+          "sharpe": 3.72,
+          "max_dd_pct": 22.4,
+          "samples": 62
+        },
+        "perpMonth": {
+          "net_pct": 201.69,
+          "sharpe": 4.17,
+          "max_dd_pct": 29.73,
+          "samples": 45
+        },
+        "perpAllTime": {
+          "net_pct": 0,
+          "sharpe": -0.23,
+          "max_dd_pct": 100.0,
+          "samples": 37
+        }
+      }
+    },
+    {
+      "addr": "0x04447ced1ac22abb0b7785cab08e2335a556d9d1",
+      "account_value": 79293.555666,
+      "pnl": 60597.668097,
+      "roi_pct": 240.45853993000003,
+      "vol_usd": 14040205.8,
+      "quality": {
+        "day": {
+          "net_pct": 36.31,
+          "sharpe": 45.12,
+          "max_dd_pct": 6.29,
+          "samples": 13
+        },
+        "week": {
+          "net_pct": 189.42,
+          "sharpe": 13.26,
+          "max_dd_pct": 13.33,
+          "samples": 61
+        },
+        "month": {
+          "net_pct": 0,
+          "sharpe": 4.04,
+          "max_dd_pct": 86.93,
+          "samples": 46
+        },
+        "allTime": {
+          "net_pct": 0,
+          "sharpe": 1.46,
+          "max_dd_pct": 100.0,
+          "samples": 50
+        },
+        "perpDay": {
+          "net_pct": 36.31,
+          "sharpe": 9.21,
+          "max_dd_pct": 6.29,
+          "samples": 13
+        },
+        "perpWeek": {
+          "net_pct": 189.42,
+          "sharpe": 5.42,
+          "max_dd_pct": 13.33,
+          "samples": 61
+        },
+        "perpMonth": {
+          "net_pct": 0,
+          "sharpe": 4.93,
+          "max_dd_pct": 86.93,
+          "samples": 46
+        },
+        "perpAllTime": {
+          "net_pct": 0,
+          "sharpe": 5.17,
+          "max_dd_pct": 100.0,
+          "samples": 50
+        }
+      }
+    },
+    {
+      "addr": "0xeca57b3ab6fe52bf5ac90838e6a50116feac0afd",
+      "account_value": 294271.722441,
+      "pnl": 197487.990424,
+      "roi_pct": 204.05081134,
+      "vol_usd": 85118850.08,
+      "quality": {
+        "day": {
+          "net_pct": 93.09,
+          "sharpe": 35.44,
+          "max_dd_pct": 10.45,
+          "samples": 14
+        },
+        "week": {
+          "net_pct": 202.4,
+          "sharpe": 9.22,
+          "max_dd_pct": 35.92,
+          "samples": 59
+        },
+        "month": {
+          "net_pct": 247.18,
+          "sharpe": 3.69,
+          "max_dd_pct": 89.3,
+          "samples": 50
+        },
+        "allTime": {
+          "net_pct": 0,
+          "sharpe": 1.26,
+          "max_dd_pct": 91.04,
+          "samples": 45
+        },
+        "perpDay": {
+          "net_pct": 93.09,
+          "sharpe": 7.23,
+          "max_dd_pct": 10.45,
+          "samples": 14
+        },
+        "perpWeek": {
+          "net_pct": 272.03,
+          "sharpe": 3.64,
+          "max_dd_pct": 91.5,
+          "samples": 59
+        },
+        "perpMonth": {
+          "net_pct": 247.18,
+          "sharpe": 3.92,
+          "max_dd_pct": 100.0,
+          "samples": 53
+        },
+        "perpAllTime": {
+          "net_pct": 0,
+          "sharpe": 3.95,
+          "max_dd_pct": 100.0,
+          "samples": 49
+        }
+      }
+    },
+    {
+      "addr": "0x570d7433062055ec1a2736d3636dbf476707bc03",
+      "account_value": 100000.000011,
+      "pnl": 130961.25665,
+      "roi_pct": 285.42980807,
+      "vol_usd": 19196945.57,
+      "quality": {
+        "day": {
+          "net_pct": 28.89,
+          "sharpe": 18.06,
+          "max_dd_pct": 14.92,
+          "samples": 15
+        },
+        "week": {
+          "net_pct": -2.03,
+          "sharpe": 2.42,
+          "max_dd_pct": 49.11,
+          "samples": 62
+        },
+        "month": {
+          "net_pct": 117.95,
+          "sharpe": 3.21,
+          "max_dd_pct": 46.19,
+          "samples": 50
+        },
+        "allTime": {
+          "net_pct": 0,
+          "sharpe": 1.97,
+          "max_dd_pct": 100.0,
+          "samples": 76
+        },
+        "perpDay": {
+          "net_pct": 28.89,
+          "sharpe": 3.69,
+          "max_dd_pct": 14.92,
+          "samples": 15
+        },
+        "perpWeek": {
+          "net_pct": -2.03,
+          "sharpe": 0.99,
+          "max_dd_pct": 49.11,
+          "samples": 62
+        },
+        "perpMonth": {
+          "net_pct": 117.95,
+          "sharpe": 3.21,
+          "max_dd_pct": 46.19,
+          "samples": 50
+        },
+        "perpAllTime": {
+          "net_pct": 0,
+          "sharpe": 5.21,
+          "max_dd_pct": 100.0,
+          "samples": 76
+        }
+      }
+    },
+    {
+      "addr": "0xf205c4d48b92cc9b60ec984721c297e350eac9fa",
+      "account_value": 97405.125633,
+      "pnl": 222016.368318,
+      "roi_pct": 259.22192837,
+      "vol_usd": 6640901.26,
+      "quality": {
+        "day": {
+          "net_pct": 61.57,
+          "sharpe": 25.86,
+          "max_dd_pct": 20.52,
+          "samples": 19
+        },
+        "week": {
+          "net_pct": -18.35,
+          "sharpe": 6.04,
+          "max_dd_pct": 100.0,
+          "samples": 61
+        },
+        "month": {
+          "net_pct": 1336957285.26,
+          "sharpe": 3.0,
+          "max_dd_pct": 100.0,
+          "samples": 47
+        },
+        "allTime": {
+          "net_pct": 0,
+          "sharpe": 1.47,
+          "max_dd_pct": 100.0,
+          "samples": 76
+        },
+        "perpDay": {
+          "net_pct": 61.57,
+          "sharpe": 5.28,
+          "max_dd_pct": 20.52,
+          "samples": 19
+        },
+        "perpWeek": {
+          "net_pct": -18.35,
+          "sharpe": 1.58,
+          "max_dd_pct": 100.0,
+          "samples": 61
+        },
+        "perpMonth": {
+          "net_pct": 0,
+          "sharpe": -0.12,
+          "max_dd_pct": 100.0,
+          "samples": 47
+        },
+        "perpAllTime": {
+          "net_pct": 0,
+          "sharpe": -2.33,
+          "max_dd_pct": 100.0,
+          "samples": 76
+        }
+      }
+    },
+    {
+      "addr": "0x7928367337f2315e54b0e2809eae446c99593aa8",
+      "account_value": 53168.539769,
+      "pnl": 81066.05241,
+      "roi_pct": 288.46575527,
+      "vol_usd": 41852947.29,
+      "quality": {
+        "day": {
+          "net_pct": -6.71,
+          "sharpe": -21.34,
+          "max_dd_pct": 8.33,
+          "samples": 13
+        },
+        "week": {
+          "net_pct": -10.29,
+          "sharpe": 0.31,
+          "max_dd_pct": 38.04,
+          "samples": 65
+        },
+        "month": {
+          "net_pct": 89.31,
+          "sharpe": 2.89,
+          "max_dd_pct": 36.85,
+          "samples": 47
+        },
+        "allTime": {
+          "net_pct": 0,
+          "sharpe": 1.94,
+          "max_dd_pct": 100.0,
+          "samples": 70
+        },
+        "perpDay": {
+          "net_pct": -63.06,
+          "sharpe": -8.88,
+          "max_dd_pct": 100.0,
+          "samples": 13
+        },
+        "perpWeek": {
+          "net_pct": -13.42,
+          "sharpe": 0.4,
+          "max_dd_pct": 100.0,
+          "samples": 65
+        },
+        "perpMonth": {
+          "net_pct": -52.19,
+          "sharpe": -0.87,
+          "max_dd_pct": 100.0,
+          "samples": 50
+        },
+        "perpAllTime": {
+          "net_pct": 0,
+          "sharpe": 3.77,
+          "max_dd_pct": 100.0,
+          "samples": 84
+        }
+      }
+    },
+    {
+      "addr": "0xe1d3baa26d94f53897efbeb550d95cc2ab72d5f7",
+      "account_value": 1094492.625011,
+      "pnl": 737946.866765,
+      "roi_pct": 206.97115299,
+      "vol_usd": 17383905.88,
+      "quality": {
+        "day": {
+          "net_pct": -11.34,
+          "sharpe": -5.29,
+          "max_dd_pct": 23.65,
+          "samples": 14
+        },
+        "week": {
+          "net_pct": 92.89,
+          "sharpe": 7.37,
+          "max_dd_pct": 42.79,
+          "samples": 57
+        },
+        "month": {
+          "net_pct": 4547.23,
+          "sharpe": 2.82,
+          "max_dd_pct": 97.71,
+          "samples": 47
+        },
+        "allTime": {
+          "net_pct": 0,
+          "sharpe": 1.06,
+          "max_dd_pct": 97.71,
+          "samples": 48
+        },
+        "perpDay": {
+          "net_pct": -11.34,
+          "sharpe": -1.08,
+          "max_dd_pct": 23.65,
+          "samples": 14
+        },
+        "perpWeek": {
+          "net_pct": 92.89,
+          "sharpe": 3.01,
+          "max_dd_pct": 42.79,
+          "samples": 57
+        },
+        "perpMonth": {
+          "net_pct": 4547.23,
+          "sharpe": -0.75,
+          "max_dd_pct": 100.0,
+          "samples": 47
+        },
+        "perpAllTime": {
+          "net_pct": 0,
+          "sharpe": -0.75,
+          "max_dd_pct": 100.0,
+          "samples": 48
+        }
+      }
+    },
+    {
+      "addr": "0x64276a44aa401a563b9229c735eae77e451586cb",
+      "account_value": 52502.078944,
+      "pnl": 35247.028335,
+      "roi_pct": 204.27079082,
+      "vol_usd": 9175485.12,
+      "quality": {
+        "day": {
+          "net_pct": -25.34,
+          "sharpe": -70.8,
+          "max_dd_pct": 28.75,
+          "samples": 13
+        },
+        "week": {
+          "net_pct": 34.05,
+          "sharpe": 5.36,
+          "max_dd_pct": 28.75,
+          "samples": 64
+        },
+        "month": {
+          "net_pct": 315.16,
+          "sharpe": 2.82,
+          "max_dd_pct": 100.0,
+          "samples": 47
+        },
+        "allTime": {
+          "net_pct": 0,
+          "sharpe": 1.23,
+          "max_dd_pct": 100.0,
+          "samples": 80
+        },
+        "perpDay": {
+          "net_pct": -25.34,
+          "sharpe": -14.45,
+          "max_dd_pct": 28.75,
+          "samples": 13
+        },
+        "perpWeek": {
+          "net_pct": 34.05,
+          "sharpe": 2.19,
+          "max_dd_pct": 28.75,
+          "samples": 64
+        },
+        "perpMonth": {
+          "net_pct": 315.16,
+          "sharpe": 2.82,
+          "max_dd_pct": 100.0,
+          "samples": 47
+        },
+        "perpAllTime": {
+          "net_pct": 0,
+          "sharpe": 3.26,
+          "max_dd_pct": 100.0,
+          "samples": 80
+        }
+      }
+    },
+    {
+      "addr": "0x0884051c662892bfcd8a132d1404ab8a3a409cea",
+      "account_value": 353454.2929070001,
+      "pnl": 270654.468127,
+      "roi_pct": 326.87884169,
+      "vol_usd": 37372166.59,
+      "quality": {
+        "day": {
+          "net_pct": -0.43,
+          "sharpe": 4.19,
+          "max_dd_pct": 23.64,
+          "samples": 17
+        },
+        "week": {
+          "net_pct": 113.92,
+          "sharpe": 7.28,
+          "max_dd_pct": 53.3,
+          "samples": 61
+        },
+        "month": {
+          "net_pct": 2095.26,
+          "sharpe": 2.8,
+          "max_dd_pct": 97.06,
+          "samples": 48
+        },
+        "allTime": {
+          "net_pct": 0,
+          "sharpe": 1.49,
+          "max_dd_pct": 99.98,
+          "samples": 54
+        },
+        "perpDay": {
+          "net_pct": -0.43,
+          "sharpe": 0.86,
+          "max_dd_pct": 23.64,
+          "samples": 17
+        },
+        "perpWeek": {
+          "net_pct": 113.92,
+          "sharpe": 2.97,
+          "max_dd_pct": 53.3,
+          "samples": 61
+        },
+        "perpMonth": {
+          "net_pct": 2095.3,
+          "sharpe": 2.8,
+          "max_dd_pct": 97.06,
+          "samples": 48
+        },
+        "perpAllTime": {
+          "net_pct": 0,
+          "sharpe": 3.93,
+          "max_dd_pct": 99.98,
+          "samples": 54
+        }
+      }
+    },
+    {
+      "addr": "0xedc3bcac96833616b45be1c5e7bbc3ca8b2fe60c",
+      "account_value": 69869.422302,
+      "pnl": 84079.956039,
+      "roi_pct": 576.3627959199999,
+      "vol_usd": 21879630.66,
+      "quality": {
+        "day": {
+          "net_pct": 0.0,
+          "sharpe": 0,
+          "max_dd_pct": 0.0,
+          "samples": 13
+        },
+        "week": {
+          "net_pct": 43.19,
+          "sharpe": 7.12,
+          "max_dd_pct": 15.44,
+          "samples": 63
+        },
+        "month": {
+          "net_pct": 464.82,
+          "sharpe": 2.44,
+          "max_dd_pct": 100.0,
+          "samples": 45
+        },
+        "allTime": {
+          "net_pct": 0,
+          "sharpe": 0.98,
+          "max_dd_pct": 100.0,
+          "samples": 46
+        },
+        "perpWeek": {
+          "net_pct": -100.0,
+          "sharpe": 4.08,
+          "max_dd_pct": 100.0,
+          "samples": 63
+        },
+        "perpMonth": {
+          "net_pct": 0,
+          "sharpe": 5.5,
+          "max_dd_pct": 100.0,
+          "samples": 49
+        },
+        "perpAllTime": {
+          "net_pct": 0,
+          "sharpe": 5.81,
+          "max_dd_pct": 100.0,
+          "samples": 48
+        }
+      }
+    },
+    {
+      "addr": "0x1d888a88fe88491fd653a107198894c8b59249eb",
+      "account_value": 75356.631314,
+      "pnl": 148401.467495,
+      "roi_pct": 194.27948552,
+      "vol_usd": 56773751.05,
+      "quality": {
+        "day": {
+          "net_pct": 3.37,
+          "sharpe": 12.76,
+          "max_dd_pct": 3.29,
+          "samples": 13
+        },
+        "week": {
+          "net_pct": -8.22,
+          "sharpe": -1.08,
+          "max_dd_pct": 19.53,
+          "samples": 63
+        },
+        "month": {
+          "net_pct": 33.95,
+          "sharpe": 2.14,
+          "max_dd_pct": 29.28,
+          "samples": 46
+        },
+        "allTime": {
+          "net_pct": 0,
+          "sharpe": 1.22,
+          "max_dd_pct": 93.03,
+          "samples": 43
+        },
+        "perpDay": {
+          "net_pct": 367.53,
+          "sharpe": 3.67,
+          "max_dd_pct": 100.0,
+          "samples": 13
+        },
+        "perpWeek": {
+          "net_pct": -32.02,
+          "sharpe": 4.14,
+          "max_dd_pct": 100.0,
+          "samples": 63
+        },
+        "perpMonth": {
+          "net_pct": 243512.4,
+          "sharpe": 2.58,
+          "max_dd_pct": 100.0,
+          "samples": 65
+        },
+        "perpAllTime": {
+          "net_pct": 0,
+          "sharpe": 2.15,
+          "max_dd_pct": 100.0,
+          "samples": 89
+        }
+      }
+    },
+    {
+      "addr": "0x99b3ba1c1b7ad83d0164d996e3d271ae8c842551",
+      "account_value": 444966.577277,
+      "pnl": 657121.497277,
+      "roi_pct": 328.56074864,
+      "vol_usd": 94644952.12,
+      "quality": {
+        "day": {
+          "net_pct": 91.02,
+          "sharpe": 47.11,
+          "max_dd_pct": 14.22,
+          "samples": 17
+        },
+        "week": {
+          "net_pct": 107.4,
+          "sharpe": 7.14,
+          "max_dd_pct": 53.95,
+          "samples": 63
+        },
+        "month": {
+          "net_pct": 0,
+          "sharpe": 1.9,
+          "max_dd_pct": 72.97,
+          "samples": 31
+        },
+        "allTime": {
+          "net_pct": 0,
+          "sharpe": 0.5,
+          "max_dd_pct": 72.97,
+          "samples": 69
+        },
+        "perpDay": {
+          "net_pct": 91.02,
+          "sharpe": 9.62,
+          "max_dd_pct": 14.22,
+          "samples": 17
+        },
+        "perpWeek": {
+          "net_pct": 107.4,
+          "sharpe": 3.4,
+          "max_dd_pct": 93.39,
+          "samples": 63
+        },
+        "perpMonth": {
+          "net_pct": 0,
+          "sharpe": 5.0,
+          "max_dd_pct": 93.39,
+          "samples": 34
+        },
+        "perpAllTime": {
+          "net_pct": 0,
+          "sharpe": 3.38,
+          "max_dd_pct": 93.39,
+          "samples": 70
+        }
+      }
+    }
+  ]
+}
