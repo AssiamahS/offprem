@@ -1,5 +1,14 @@
 [
   {
+    "slug": "evolve-001-trend-momo-vol",
+    "label": "evolve-001-trend-momo-vol",
+    "source": "local:/Users/djsly/hyperliquid-sol/autoresearch",
+    "dataset": "test",
+    "avg_return_pct": -2.83,
+    "avg_sharpe": -10.672,
+    "ts": "2026-04-17T07:38:23+00:00"
+  },
+  {
     "slug": "autoresearch-baseline",
     "label": "autoresearch-baseline",
     "source": "local:/Users/djsly/hyperliquid-sol/autoresearch",
