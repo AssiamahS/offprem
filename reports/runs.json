@@ -1,5 +1,14 @@
 [
   {
+    "slug": "evolve-004-bb-atr-stop",
+    "label": "evolve-004-bb-atr-stop",
+    "source": "local:/Users/djsly/hyperliquid-sol/autoresearch",
+    "dataset": "test",
+    "avg_return_pct": -0.73,
+    "avg_sharpe": -4.286,
+    "ts": "2026-04-17T07:39:49+00:00"
+  },
+  {
     "slug": "evolve-003-bb-meanrev-flat",
     "label": "evolve-003-bb-meanrev-flat",
     "source": "local:/Users/djsly/hyperliquid-sol/autoresearch",
