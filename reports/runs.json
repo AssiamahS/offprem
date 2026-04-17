@@ -1,5 +1,14 @@
 [
   {
+    "slug": "evolve-008-short-overbought-180d",
+    "label": "evolve-008-short-overbought-180d",
+    "source": "local:/Users/djsly/hyperliquid-sol/autoresearch",
+    "dataset": "test",
+    "avg_return_pct": -1.13,
+    "avg_sharpe": -2.804,
+    "ts": "2026-04-17T08:11:26+00:00"
+  },
+  {
     "slug": "leaderboard",
     "label": "HL leaderboard top traders (month)",
     "source": "stats-data.hyperliquid.xyz",
