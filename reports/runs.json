@@ -1,5 +1,14 @@
 [
   {
+    "slug": "evolve-003-bb-meanrev-flat",
+    "label": "evolve-003-bb-meanrev-flat",
+    "source": "local:/Users/djsly/hyperliquid-sol/autoresearch",
+    "dataset": "test",
+    "avg_return_pct": -1.04,
+    "avg_sharpe": -2.867,
+    "ts": "2026-04-17T07:39:24+00:00"
+  },
+  {
     "slug": "evolve-002-bb-meanrev-calm",
     "label": "evolve-002-bb-meanrev-calm",
     "source": "local:/Users/djsly/hyperliquid-sol/autoresearch",
