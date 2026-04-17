@@ -1,5 +1,14 @@
 [
   {
+    "slug": "evolve-009-symmetric-180d-test",
+    "label": "evolve-009-symmetric-180d-test",
+    "source": "local:/Users/djsly/hyperliquid-sol/autoresearch",
+    "dataset": "test",
+    "avg_return_pct": -1.13,
+    "avg_sharpe": -2.804,
+    "ts": "2026-04-17T08:11:52+00:00"
+  },
+  {
     "slug": "evolve-008-short-overbought-180d-train",
     "label": "evolve-008-short-overbought-180d-train",
     "source": "local:/Users/djsly/hyperliquid-sol/autoresearch",
