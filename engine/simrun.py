@@ -37,13 +37,14 @@ OFFPREM_LOCAL = Path.home() / "offprem"
 OFFPREM_PAGES_URL = "https://assiamahs.github.io/offprem"
 
 DATA_DIR = Path(__file__).parent / "data"
+FUNDING_DIR = DATA_DIR / "funding"
 COINS = ["BTC", "ETH", "SOL", "HYPE", "XRP", "SUI", "DOGE", "AVAX"]
 
 TAKER_FEE = 0.00035
 SLIPPAGE = 0.0001
 INITIAL_CAPITAL = 100.0
 MAX_POSITION_PCT = 0.20
-BARS_PER_YEAR = 35040  # 15-min bars
+BARS_PER_YEAR = 8760  # 1h bars
 
 
 def load_strategy(folder: Path):
@@ -61,7 +62,20 @@ def load_strategy(folder: Path):
 
 def load_data(coin: str, dataset: str) -> pd.DataFrame:
     path = DATA_DIR / f"{coin}_{dataset}.csv"
-    return pd.read_csv(path, index_col=0, parse_dates=True)
+    df = pd.read_csv(path, index_col=0, parse_dates=True)
+    fpath = FUNDING_DIR / f"{coin}.csv"
+    if fpath.exists():
+        f = pd.read_csv(fpath)
+        f.index = pd.to_datetime(f.iloc[:, 0], utc=True, format="ISO8601")
+        if df.index.tz is None:
+            df.index = df.index.tz_localize("UTC")
+        else:
+            df.index = df.index.tz_convert("UTC")
+        df = df.join(f["funding_rate"].astype(float), how="left")
+        df["funding_rate"] = df["funding_rate"].ffill().fillna(0.0)
+    else:
+        df["funding_rate"] = 0.0
+    return df
 
 
 def run_with_trace(df: pd.DataFrame, signals: pd.Series) -> dict:
@@ -81,9 +95,16 @@ def run_with_trace(df: pd.DataFrame, signals: pd.Series) -> dict:
         exits.append((i, float(price), "long" if position == 1 else "short", float(net)))
         trades.append(net)
 
+    has_funding = "funding_rate" in df.columns
     for i in range(1, len(df)):
         price = df["close"].iloc[i]
         signal = int(signals.iloc[i]) if i < len(signals) else 0
+
+        # accrue hourly funding while holding a position
+        # funding > 0: longs pay shorts. position=1 (long) loses, position=-1 (short) gains.
+        if has_funding and position != 0:
+            funding = float(df["funding_rate"].iloc[i])
+            equity *= (1 - funding * position * MAX_POSITION_PCT)
 
         if signal != 0 and signal != position:
             if position != 0:

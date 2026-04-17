@@ -1,0 +1,37 @@
+name: leaderboard-cron
+
+on:
+  schedule:
+    - cron: "0 * * * *"   # hourly
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  snapshot:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: pull leaderboard + diff
+        run: cd engine && python3 snapshot_leaderboard.py
+
+      - name: refresh full leaderboard report
+        run: cd engine && pip install pandas numpy && python3 find_traders.py --top 30 --rank-by month --min-vol 5000000 --min-account 50000 || true
+
+      - name: commit
+        run: |
+          git config user.name "offprem-bot"
+          git config user.email "offprem-bot@users.noreply.github.com"
+          git add reports/
+          if ! git diff --cached --quiet; then
+            git commit -m "hourly leaderboard snapshot $(date -u +%Y-%m-%dT%H:%MZ)"
+            git push
+          else
+            echo "no changes"
+          fi
