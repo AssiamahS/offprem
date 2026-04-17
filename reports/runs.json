@@ -1,5 +1,14 @@
 [
   {
+    "slug": "evolve-002-bb-meanrev-calm",
+    "label": "evolve-002-bb-meanrev-calm",
+    "source": "local:/Users/djsly/hyperliquid-sol/autoresearch",
+    "dataset": "test",
+    "avg_return_pct": -0.71,
+    "avg_sharpe": -2.187,
+    "ts": "2026-04-17T07:38:55+00:00"
+  },
+  {
     "slug": "evolve-001-trend-momo-vol",
     "label": "evolve-001-trend-momo-vol",
     "source": "local:/Users/djsly/hyperliquid-sol/autoresearch",
