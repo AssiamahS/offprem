@@ -1,12 +1,12 @@
 [
   {
     "slug": "movers",
-    "label": "HL movers (2 new, 20 shifts)",
+    "label": "HL movers (3 new, 20 shifts)",
     "source": "stats-data.hyperliquid.xyz",
     "dataset": "month",
     "avg_return_pct": 0,
     "avg_sharpe": 0,
-    "ts": "2026-08-18T18:45:37+00:00"
+    "ts": "2026-08-18T19:31:07+00:00"
   },
   {
     "slug": "hip3-funding-harvest-train",
